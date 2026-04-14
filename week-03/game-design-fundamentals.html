@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Mr.&nbsp;John Jennings">
+
+<title>Game Design Fundamentals – Ludology and Game Play</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../week-04/mda-framework.html" rel="next">
+<link href="../week-02/game-design-process.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-564bc1ece6d998723d1f30af2143c727.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-564bc1ece6d998723d1f30af2143c727.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-564bc1ece6d998723d1f30af2143c727.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/naquiz-styles-1.0.4/buttons.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<meta property="og:title" content="Game Design Fundamentals – Ludology and Game Play">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="Ludology and Game Play">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../week-03/game-design-fundamentals.html">Week 3: Fundamentals of Game Design</a></li><li class="breadcrumb-item"><a href="../week-03/game-design-fundamentals.html">Game Design Fundamentals</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Ludology and Game Play</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Week 1: Introduction and Course Overview</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-01/course-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Course Introduction and Syllabus</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-01/reflective-writing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reflective Writing and Learning</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Week 2: Games as Engines of Experience</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-02/games-as-engines.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Games as Engines of Experience</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-02/game-design-process.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Game Design Process and Ideation</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Week 3: Fundamentals of Game Design</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-03/game-design-fundamentals.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Game Design Fundamentals</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Week 4: MDA Framework</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-04/mda-framework.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The MDA Framework</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-04/bartle-player-types.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bartle’s Player Types</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Week 5: Design Patterns and Analysis Tools</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-05/design-patterns.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Design Patterns in Game Design</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-05/schells-lenses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Schell’s Game Design Lenses</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
+ <span class="menu-text">Week 6: Documenting and Testing Game Designs</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-06/documenting-game-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Documenting Game Design</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-06/gameplay-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Gameplay Design Principles</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
+ <span class="menu-text">Week 7: Level Design and Game Balance</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-07/level-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Level Design Fundamentals</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-07/game-balance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Game Balance and Difficulty</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
+ <span class="menu-text">Week 8: Prototyping and Implementation</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-08/prototyping.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Non-digital and Digital Prototyping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-08/social-issues.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Social Issues for Game Designers</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#what-is-design" id="toc-what-is-design" class="nav-link" data-scroll-target="#what-is-design">What is Design?</a></li>
+  <li><a href="#successful-game-design" id="toc-successful-game-design" class="nav-link" data-scroll-target="#successful-game-design">Successful Game Design</a></li>
+  <li><a href="#meaningful-play" id="toc-meaningful-play" class="nav-link" data-scroll-target="#meaningful-play">Meaningful Play</a>
+  <ul class="collapse">
+  <li><a href="#descriptive-definition" id="toc-descriptive-definition" class="nav-link" data-scroll-target="#descriptive-definition">Descriptive Definition</a></li>
+  <li><a href="#evaluative-definition" id="toc-evaluative-definition" class="nav-link" data-scroll-target="#evaluative-definition">Evaluative Definition</a></li>
+  </ul></li>
+  <li><a href="#semiotics-in-game-design" id="toc-semiotics-in-game-design" class="nav-link" data-scroll-target="#semiotics-in-game-design">Semiotics in Game Design</a>
+  <ul class="collapse">
+  <li><a href="#four-key-semiotic-concepts" id="toc-four-key-semiotic-concepts" class="nav-link" data-scroll-target="#four-key-semiotic-concepts">Four Key Semiotic Concepts</a></li>
+  </ul></li>
+  <li><a href="#systems-thinking" id="toc-systems-thinking" class="nav-link" data-scroll-target="#systems-thinking">Systems Thinking</a></li>
+  <li><a href="#game-systems" id="toc-game-systems" class="nav-link" data-scroll-target="#game-systems">Game Systems</a>
+  <ul class="collapse">
+  <li><a href="#chess-as-a-system-example" id="toc-chess-as-a-system-example" class="nav-link" data-scroll-target="#chess-as-a-system-example">Chess as a System Example</a></li>
+  </ul></li>
+  <li><a href="#interactivity" id="toc-interactivity" class="nav-link" data-scroll-target="#interactivity">Interactivity</a>
+  <ul class="collapse">
+  <li><a href="#interactivity-in-game-design" id="toc-interactivity-in-game-design" class="nav-link" data-scroll-target="#interactivity-in-game-design">Interactivity in Game Design</a></li>
+  </ul></li>
+  <li><a href="#choice-in-games" id="toc-choice-in-games" class="nav-link" data-scroll-target="#choice-in-games">Choice in Games</a>
+  <ul class="collapse">
+  <li><a href="#diagnosing-choice" id="toc-diagnosing-choice" class="nav-link" data-scroll-target="#diagnosing-choice">Diagnosing Choice</a></li>
+  <li><a href="#common-choice-failure-states" id="toc-common-choice-failure-states" class="nav-link" data-scroll-target="#common-choice-failure-states">Common Choice Failure States</a></li>
+  </ul></li>
+  <li><a href="#integrating-game-design-concepts" id="toc-integrating-game-design-concepts" class="nav-link" data-scroll-target="#integrating-game-design-concepts">Integrating Game Design Concepts</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../week-03/game-design-fundamentals.html">Week 3: Fundamentals of Game Design</a></li><li class="breadcrumb-item"><a href="../week-03/game-design-fundamentals.html">Game Design Fundamentals</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Game Design Fundamentals</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Mr.&nbsp;John Jennings </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Game design concepts have existed for some time, but have recently gained much attention through computer technology. Unlike software engineering, game design is not standardized or process-driven. Instead, it relies on broad conceptual definitions that build from general design principles to specific computer game design applications.</p>
+<p>The field encompasses a progression from basic design concepts to game design principles, and finally to the specialized domain of computer game design. Understanding these foundational concepts is essential for anyone looking to create engaging and meaningful gaming experiences.</p>
+</section>
+<section id="what-is-design" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-design">What is Design?</h2>
+<p>Design is the process by which a designer creates a context to be encountered by a participant, from which meaning emerges. This fundamental definition applies broadly across all design disciplines and provides the foundation for understanding game design specifically.</p>
+<p>When we apply this definition to games, we can identify four key components:</p>
+<ul>
+<li><strong>Designer</strong>: The individual game designer, or even a whole culture that shapes the gaming experience</li>
+<li><strong>Context</strong>: The spaces, objects, narratives, and behaviors that make up the game world</li>
+<li><strong>Participants</strong>: The players who engage with the designed system</li>
+<li><strong>Meaning</strong>: The meaningful play that emerges from the interaction</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This definition emphasizes that design is not just about creating objects or systems, but about crafting experiences that generate meaning through participant interaction.</p>
+</div>
+</div>
+</section>
+<section id="successful-game-design" class="level2">
+<h2 class="anchored" data-anchor-id="successful-game-design">Successful Game Design</h2>
+<p>The goal of successful game design is the creation of meaningful play. This concept can be illustrated through various gaming contexts:</p>
+<ul>
+<li>The intellectual dueling of two players in a well-matched game of Chess</li>
+<li>The improvisational, team-based coordination required in Basketball</li>
+<li>The dynamic shifting of individual and communal identities in online role-playing games like EverQuest</li>
+<li>The lifestyle-invading experience of games like Half-Life played on a college campus</li>
+</ul>
+<p>Each of these examples demonstrates how successful game design creates contexts where players find deep engagement and meaning through their interactions with the game system.</p>
+</section>
+<section id="meaningful-play" class="level2">
+<h2 class="anchored" data-anchor-id="meaningful-play">Meaningful Play</h2>
+<p>Meaningful play can be understood through two complementary definitions:</p>
+<section id="descriptive-definition" class="level3">
+<h3 class="anchored" data-anchor-id="descriptive-definition">Descriptive Definition</h3>
+<p>Meaningful play emerges from the relationship between player action and system outcome. It is the process by which a player takes action within the designed system of a game and the system responds to that action. The meaning of an action in a game resides in the relationship between the action and its outcome.</p>
+</section>
+<section id="evaluative-definition" class="level3">
+<h3 class="anchored" data-anchor-id="evaluative-definition">Evaluative Definition</h3>
+<p>Meaningful play occurs when the relationships between actions and outcomes in a game are both discernible and integrated into the larger context of the game. Players must be able to understand the consequences of their actions and see how those consequences fit into the broader game experience.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The two ways of defining meaningful play are closely related. Designing successful games requires understanding meaningful play in both senses - both how meaning emerges from player-system interaction and how that meaning integrates into the larger game context.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="semiotics-in-game-design" class="level2">
+<h2 class="anchored" data-anchor-id="semiotics-in-game-design">Semiotics in Game Design</h2>
+<p>Semiotics is the study of meaning, primarily concerned with how signs represent or denote concepts. People use signs to designate objects or ideas, and because a sign represents something other than itself, we interpret the representation as the meaning of the sign.</p>
+<section id="four-key-semiotic-concepts" class="level3">
+<h3 class="anchored" data-anchor-id="four-key-semiotic-concepts">Four Key Semiotic Concepts</h3>
+<ol type="1">
+<li><strong>A sign represents something other than itself</strong> - Game elements often stand for concepts beyond their literal representation</li>
+<li><strong>Signs are interpreted</strong> - Players actively decode the meaning of game elements</li>
+<li><strong>Meaning results when a sign is interpreted</strong> - The interpretation process creates understanding</li>
+<li><strong>Context shapes interpretation</strong> - The surrounding environment influences how signs are understood</li>
+</ol>
+<p>Understanding semiotics helps game designers create systems where visual, audio, and interactive elements communicate effectively with players.</p>
+</section>
+</section>
+<section id="systems-thinking" class="level2">
+<h2 class="anchored" data-anchor-id="systems-thinking">Systems Thinking</h2>
+<p>A system has many parts that interrelate to form a complex whole. All systems contain four essential elements:</p>
+<ul>
+<li><strong>Objects</strong>: The parts, elements, or variables within the system</li>
+<li><strong>Attributes</strong>: Qualities or properties of the system and its objects</li>
+<li><strong>Internal relationships</strong>: Relations among the objects</li>
+<li><strong>Environment</strong>: The context that surrounds the system</li>
+</ul>
+</section>
+<section id="game-systems" class="level2">
+<h2 class="anchored" data-anchor-id="game-systems">Game Systems</h2>
+<p>Games can be understood as systems operating on three different levels simultaneously. These four system elements (objects, attributes, internal relationships, environment) can be framed differently within gaming contexts:</p>
+<ul>
+<li><strong>Formal systems</strong>: The mechanical structure of the game</li>
+<li><strong>Experiential systems</strong>: The player’s lived experience with the game</li>
+<li><strong>Cultural systems</strong>: The broader cultural context in which the game exists</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>All three frames exist simultaneously. A game as a formal system is always embedded within an experiential system, and a game as a cultural system contains both formal and experiential systems.</p>
+</div>
+</div>
+<section id="chess-as-a-system-example" class="level3">
+<h3 class="anchored" data-anchor-id="chess-as-a-system-example">Chess as a System Example</h3>
+<p><strong>Chess as a Formal System:</strong> - Objects: pieces on the board, the board itself - Attributes: characteristics given to the objects, defined by the rules - Internal Relationships: spatial relationships, positions on the board - Environment: the play itself</p>
+<p><strong>Chess as an Experiential System:</strong> - Objects: the players themselves - Attributes: the pieces a player controls, current state of the game - Internal Relationships: player interaction, social, psychological, and emotional communication - Environment: board, pieces, immediate setting of the game - anything that facilitates the play</p>
+<p><strong>Chess as a Cultural System:</strong> - Objects: the game of Chess itself, in its broadest cultural sense - Attributes: the designed elements of the game, as well as information on how, when, where, and why the game was made and used - Internal relationships: linkages between the game and culture - Environment: culture itself, in all of its forms</p>
+</section>
+</section>
+<section id="interactivity" class="level2">
+<h2 class="anchored" data-anchor-id="interactivity">Interactivity</h2>
+<p>Interactivity can be understood through four distinct modes:</p>
+<ol type="1">
+<li><strong>Cognitive interactivity</strong>: interpretive participation</li>
+<li><strong>Functional interactivity</strong>: utilitarian participation</li>
+<li><strong>Explicit interactivity</strong>: participation with designed choices and procedures</li>
+<li><strong>Beyond-the-object-interactivity</strong>: participation within the culture of the project</li>
+</ol>
+<section id="interactivity-in-game-design" class="level3">
+<h3 class="anchored" data-anchor-id="interactivity-in-game-design">Interactivity in Game Design</h3>
+<p>The third mode (explicit interactivity) comes closest to defining what we mean when we say games are interactive. Interactivity and gameplay are often synonymous, as both involve designed interaction.</p>
+<p>Consider the difference between rolling dice on a craps table versus rolling an apple - the designed context creates meaningful interaction in the first case but not the second.</p>
+</section>
+</section>
+<section id="choice-in-games" class="level2">
+<h2 class="anchored" data-anchor-id="choice-in-games">Choice in Games</h2>
+<p>Choice operates at two interconnected levels:</p>
+<ul>
+<li><strong>Micro level</strong>: each decision at its smallest level</li>
+<li><strong>Macro level</strong>: the accumulated choices that form larger choices and outcomes</li>
+</ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Players should understand that their choices at the micro level influence choices at the macro level. This connection is crucial for maintaining player engagement and creating meaningful play.</p>
+</div>
+</div>
+<section id="diagnosing-choice" class="level3">
+<h3 class="anchored" data-anchor-id="diagnosing-choice">Diagnosing Choice</h3>
+<p>For every choice in a game, designers should ask these questions:</p>
+<ol type="1">
+<li>What happened before the player was given the choice?</li>
+<li>How is the possibility of a choice conveyed to the player?</li>
+<li>How did the player make the choice?</li>
+<li>What is the result of the choice? How will it affect future choices?</li>
+<li>How is the result of the choice conveyed to the player?</li>
+</ol>
+</section>
+<section id="common-choice-failure-states" class="level3">
+<h3 class="anchored" data-anchor-id="common-choice-failure-states">Common Choice Failure States</h3>
+<p>When choice systems fail, players often experience:</p>
+<ul>
+<li>Feeling as if decisions are arbitrary</li>
+<li>Not knowing what to do next</li>
+<li>Losing a game without understanding why</li>
+<li>Not knowing if an action had an outcome</li>
+</ul>
+</section>
+</section>
+<section id="integrating-game-design-concepts" class="level2">
+<h2 class="anchored" data-anchor-id="integrating-game-design-concepts">Integrating Game Design Concepts</h2>
+<p>Effective game design requires understanding how all these concepts work together:</p>
+<ul>
+<li><strong>Players seek meaning</strong> in their play experiences</li>
+<li><strong>Systems thinking</strong> helps create coherent formal, experiential, and cultural frameworks</li>
+<li><strong>Semiotics</strong> enables meaning-making through representation</li>
+<li><strong>Interactivity</strong> defines the core of gameplay</li>
+<li><strong>Choice design</strong> ensures that player decisions are meaningful at both micro and macro levels</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The most successful games seamlessly integrate all these elements to create experiences where every player action feels meaningful and contributes to a larger, coherent whole.</p>
+</div>
+</div>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>Key takeaways from game design fundamentals:</p>
+<ol type="1">
+<li><p><strong>Game design is about creating meaningful play</strong> through the careful design of contexts that generate meaning when players interact with them.</p></li>
+<li><p><strong>Games operate as complex systems</strong> that can be understood simultaneously as formal mechanical structures, experiential player interactions, and cultural artifacts.</p></li>
+<li><p><strong>Effective choice design</strong> requires ensuring that player decisions are meaningful at both the micro level (individual actions) and macro level (accumulated outcomes), with clear communication of possibilities and consequences.</p></li>
+<li><p><strong>Semiotics and interactivity</strong> work together to create gameplay experiences where signs, symbols, and interactions communicate effectively with players to generate intended meanings.</p></li>
+<li><p><strong>Successful game design integrates all elements</strong> - systems, meaning, choice, and interactivity must work together cohesively to create engaging and meaningful player experiences.</p></li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../week-02/game-design-process.html" class="pagination-link" aria-label="Game Design Process and Ideation">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Game Design Process and Ideation</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../week-04/mda-framework.html" class="pagination-link" aria-label="The MDA Framework">
+        <span class="nav-page-text">The MDA Framework</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<!-- Render ```mermaid fenced code blocks that Quarto leaves as plain code -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var fenced = document.querySelectorAll('pre.sourceCode.mermaid');
+    if (!fenced.length) return;
+    function run() {
+      mermaid.initialize({ startOnLoad: false, theme: 'dark' });
+      fenced.forEach(function (pre) {
+        var code = pre.querySelector('code');
+        var text = code ? code.textContent : pre.textContent;
+        var wrapper = pre.closest('div.sourceCode') || pre;
+        var div = document.createElement('div');
+        div.className = 'mermaid';
+        div.textContent = text;
+        if (wrapper.parentNode) wrapper.parentNode.replaceChild(div, wrapper);
+      });
+      mermaid.run({ querySelector: '.mermaid' });
+    }
+    if (window.mermaid) {
+      run();
+    } else {
+      var s = document.createElement('script');
+      s.src = 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js';
+      s.onload = run;
+      document.head.appendChild(s);
+    }
+  });
+</script>
+<script defer="" src="https://cdn.jsdelivr.net/npm/alpinejs@3.12.0/dist/cdn.min.js"></script>
+
+
+
+
+</body></html>

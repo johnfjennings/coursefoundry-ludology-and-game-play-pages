@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Mr.&nbsp;John Jennings">
+
+<title>Game Design Process and Ideation – Ludology and Game Play</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../week-03/game-design-fundamentals.html" rel="next">
+<link href="../week-02/games-as-engines.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-564bc1ece6d998723d1f30af2143c727.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-564bc1ece6d998723d1f30af2143c727.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-564bc1ece6d998723d1f30af2143c727.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/naquiz-styles-1.0.4/buttons.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<meta property="og:title" content="Game Design Process and Ideation – Ludology and Game Play">
+<meta property="og:site_name" content="Ludology and Game Play">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../week-02/games-as-engines.html">Week 2: Games as Engines of Experience</a></li><li class="breadcrumb-item"><a href="../week-02/game-design-process.html">Game Design Process and Ideation</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Ludology and Game Play</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Week 1: Introduction and Course Overview</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-01/course-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Course Introduction and Syllabus</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-01/reflective-writing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reflective Writing and Learning</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Week 2: Games as Engines of Experience</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-02/games-as-engines.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Games as Engines of Experience</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-02/game-design-process.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Game Design Process and Ideation</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Week 3: Fundamentals of Game Design</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-03/game-design-fundamentals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Game Design Fundamentals</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Week 4: MDA Framework</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-04/mda-framework.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The MDA Framework</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-04/bartle-player-types.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bartle’s Player Types</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Week 5: Design Patterns and Analysis Tools</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-05/design-patterns.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Design Patterns in Game Design</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-05/schells-lenses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Schell’s Game Design Lenses</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
+ <span class="menu-text">Week 6: Documenting and Testing Game Designs</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-06/documenting-game-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Documenting Game Design</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-06/gameplay-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Gameplay Design Principles</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
+ <span class="menu-text">Week 7: Level Design and Game Balance</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-07/level-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Level Design Fundamentals</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-07/game-balance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Game Balance and Difficulty</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
+ <span class="menu-text">Week 8: Prototyping and Implementation</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-08/prototyping.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Non-digital and Digital Prototyping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week-08/social-issues.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Social Issues for Game Designers</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#game-ideation" id="toc-game-ideation" class="nav-link active" data-scroll-target="#game-ideation">Game Ideation</a>
+  <ul class="collapse">
+  <li><a href="#the-starting-point-a-single-idea" id="toc-the-starting-point-a-single-idea" class="nav-link" data-scroll-target="#the-starting-point-a-single-idea">The Starting Point: A Single Idea</a></li>
+  <li><a href="#finding-inspiration" id="toc-finding-inspiration" class="nav-link" data-scroll-target="#finding-inspiration">Finding Inspiration</a></li>
+  <li><a href="#sid-meiers-perspective" id="toc-sid-meiers-perspective" class="nav-link" data-scroll-target="#sid-meiers-perspective">Sid Meier’s Perspective</a></li>
+  <li><a href="#ernest-adams-dream-fulfillment-theory" id="toc-ernest-adams-dream-fulfillment-theory" class="nav-link" data-scroll-target="#ernest-adams-dream-fulfillment-theory">Ernest Adams’ Dream-Fulfillment Theory</a></li>
+  </ul></li>
+  <li><a href="#interactivity" id="toc-interactivity" class="nav-link" data-scroll-target="#interactivity">Interactivity</a>
+  <ul class="collapse">
+  <li><a href="#the-central-question" id="toc-the-central-question" class="nav-link" data-scroll-target="#the-central-question">The Central Question</a></li>
+  <li><a href="#the-inside-out-approach" id="toc-the-inside-out-approach" class="nav-link" data-scroll-target="#the-inside-out-approach">The Inside-Out Approach</a></li>
+  <li><a href="#defining-the-players-role" id="toc-defining-the-players-role" class="nav-link" data-scroll-target="#defining-the-players-role">Defining the Player’s Role</a></li>
+  <li><a href="#interaction-models" id="toc-interaction-models" class="nav-link" data-scroll-target="#interaction-models">Interaction Models</a></li>
+  </ul></li>
+  <li><a href="#perspectives" id="toc-perspectives" class="nav-link" data-scroll-target="#perspectives">Perspectives</a>
+  <ul class="collapse">
+  <li><a href="#visual-viewpoints" id="toc-visual-viewpoints" class="nav-link" data-scroll-target="#visual-viewpoints">Visual Viewpoints</a></li>
+  <li><a href="#multiple-game-modes-and-perspectives" id="toc-multiple-game-modes-and-perspectives" class="nav-link" data-scroll-target="#multiple-game-modes-and-perspectives">Multiple Game Modes and Perspectives</a></li>
+  <li><a href="#game-structure-and-mode-relationships" id="toc-game-structure-and-mode-relationships" class="nav-link" data-scroll-target="#game-structure-and-mode-relationships">Game Structure and Mode Relationships</a></li>
+  </ul></li>
+  <li><a href="#game-dimensions" id="toc-game-dimensions" class="nav-link" data-scroll-target="#game-dimensions">Game Dimensions</a>
+  <ul class="collapse">
+  <li><a href="#physical-dimension" id="toc-physical-dimension" class="nav-link" data-scroll-target="#physical-dimension">Physical Dimension</a></li>
+  <li><a href="#temporal-dimension" id="toc-temporal-dimension" class="nav-link" data-scroll-target="#temporal-dimension">Temporal Dimension</a></li>
+  <li><a href="#environmental-dimension" id="toc-environmental-dimension" class="nav-link" data-scroll-target="#environmental-dimension">Environmental Dimension</a></li>
+  <li><a href="#emotional-dimension" id="toc-emotional-dimension" class="nav-link" data-scroll-target="#emotional-dimension">Emotional Dimension</a></li>
+  <li><a href="#ethical-dimension" id="toc-ethical-dimension" class="nav-link" data-scroll-target="#ethical-dimension">Ethical Dimension</a></li>
+  </ul></li>
+  <li><a href="#game-challenges" id="toc-game-challenges" class="nav-link" data-scroll-target="#game-challenges">Game Challenges</a>
+  <ul class="collapse">
+  <li><a href="#physical-challenges" id="toc-physical-challenges" class="nav-link" data-scroll-target="#physical-challenges">Physical Challenges</a></li>
+  <li><a href="#logical-challenges" id="toc-logical-challenges" class="nav-link" data-scroll-target="#logical-challenges">Logical Challenges</a></li>
+  <li><a href="#exploration-challenges" id="toc-exploration-challenges" class="nav-link" data-scroll-target="#exploration-challenges">Exploration Challenges</a></li>
+  <li><a href="#conflict-challenges" id="toc-conflict-challenges" class="nav-link" data-scroll-target="#conflict-challenges">Conflict Challenges</a></li>
+  <li><a href="#economic-challenges" id="toc-economic-challenges" class="nav-link" data-scroll-target="#economic-challenges">Economic Challenges</a></li>
+  <li><a href="#conceptual-challenges" id="toc-conceptual-challenges" class="nav-link" data-scroll-target="#conceptual-challenges">Conceptual Challenges</a></li>
+  </ul></li>
+  <li><a href="#game-mechanics" id="toc-game-mechanics" class="nav-link" data-scroll-target="#game-mechanics">Game Mechanics</a>
+  <ul class="collapse">
+  <li><a href="#core-mechanics-and-internal-economy" id="toc-core-mechanics-and-internal-economy" class="nav-link" data-scroll-target="#core-mechanics-and-internal-economy">Core Mechanics and Internal Economy</a></li>
+  <li><a href="#balance-principles" id="toc-balance-principles" class="nav-link" data-scroll-target="#balance-principles">Balance Principles</a></li>
+  <li><a href="#positive-feedback" id="toc-positive-feedback" class="nav-link" data-scroll-target="#positive-feedback">Positive Feedback</a></li>
+  <li><a href="#controlling-positive-feedback" id="toc-controlling-positive-feedback" class="nav-link" data-scroll-target="#controlling-positive-feedback">Controlling Positive Feedback</a></li>
+  <li><a href="#negative-feedback-examples" id="toc-negative-feedback-examples" class="nav-link" data-scroll-target="#negative-feedback-examples">Negative Feedback Examples</a></li>
+  <li><a href="#balance-progression-patterns" id="toc-balance-progression-patterns" class="nav-link" data-scroll-target="#balance-progression-patterns">Balance Progression Patterns</a></li>
+  </ul></li>
+  <li><a href="#game-worlds" id="toc-game-worlds" class="nav-link" data-scroll-target="#game-worlds">Game Worlds</a>
+  <ul class="collapse">
+  <li><a href="#mental-spaces-and-rules" id="toc-mental-spaces-and-rules" class="nav-link" data-scroll-target="#mental-spaces-and-rules">Mental Spaces and Rules</a></li>
+  <li><a href="#communicating-ideas" id="toc-communicating-ideas" class="nav-link" data-scroll-target="#communicating-ideas">Communicating Ideas:</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../week-02/games-as-engines.html">Week 2: Games as Engines of Experience</a></li><li class="breadcrumb-item"><a href="../week-02/game-design-process.html">Game Design Process and Ideation</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Game Design Process and Ideation</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Mr.&nbsp;John Jennings </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="game-ideation" class="level2">
+<h2 class="anchored" data-anchor-id="game-ideation">Game Ideation</h2>
+<section id="the-starting-point-a-single-idea" class="level3">
+<h3 class="anchored" data-anchor-id="the-starting-point-a-single-idea">The Starting Point: A Single Idea</h3>
+<p>Most games begin with a single idea that serves as the foundation for the entire design process. This initial concept can revolve around several different elements, each offering unique opportunities for creative development.</p>
+<p>The idea might center on <strong>a character</strong> - think of how James Bond has inspired countless action games, providing both a recognizable protagonist and a specific tone for gameplay. Alternatively, the concept could focus on <strong>gameplay or genre</strong> - perhaps starting with the desire to create a first-person shooter (FPS) or real-time strategy (RTS) game and building from there.</p>
+<p><strong>Sports</strong> provide another fertile ground for game ideas, whether it’s traditional sports like football, soccer, and hockey, or more extreme activities like snowboarding. The appeal lies in translating the excitement and mechanics of physical competition into interactive digital experiences.</p>
+<p>Some games emerge from <strong>story, quest, or goal concepts</strong> - a time-travel adventure, for instance, immediately suggests both narrative possibilities and unique gameplay mechanics. Finally, <strong>new technology</strong> can spark innovative game ideas, such as motion capture systems that bring realistic sports movements to life, or augmented and virtual reality platforms that create entirely new forms of interaction.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Ideas can be original, adaptations of older concepts, or hybrids that combine existing elements in new ways. Games like The Sims and Civilization demonstrate how innovative thinking can create entirely new genres or revolutionize existing ones.</p>
+</div>
+</div>
+</section>
+<section id="finding-inspiration" class="level3">
+<h3 class="anchored" data-anchor-id="finding-inspiration">Finding Inspiration</h3>
+<p>Inspiration for game ideas can come from numerous sources, each offering different advantages for the creative process. Consider making a game based on a story you’ve written - this approach ensures you have deep understanding of the narrative elements and thematic content.</p>
+<p>Mixing existing ideas from other games can lead to innovative combinations. The key is to identify what works well in different games and find creative ways to blend those elements into something new and compelling.</p>
+<p>Don’t overlook other media as sources of inspiration. Books, movies, comics, and other forms of entertainment contain countless stories, characters, and concepts that can be adapted into interactive experiences. The trick is to steal ideas (but not copyrighted characters) and transform them through the unique possibilities that interactivity provides.</p>
+<p>Market research through surveys and focus groups can reveal what audiences want, though this approach requires balancing popular demand with creative vision. Sometimes the most successful games are those that give players something they didn’t know they wanted.</p>
+<p>Another productive approach is taking current ideas and improving upon them through better technology, enhanced graphics, improved sound design, more sophisticated AI, stronger storytelling, or different environmental settings. Finally, don’t underestimate the power of brainstorming - generate lots of ideas without immediately judging their merit.</p>
+</section>
+<section id="sid-meiers-perspective" class="level3">
+<h3 class="anchored" data-anchor-id="sid-meiers-perspective">Sid Meier’s Perspective</h3>
+<p>Legendary game designer Sid Meier offers valuable insight into the ideation process: “I find it dangerous to think in terms of genre first and then topic. Like, say, ‘I want to do a real-time strategy game. OK. What’s a cool topic?’ I think, for me at least, it’s more interesting to say, ‘I want to do a game about railroads. OK, now what’s the most interesting way to bring that to life? Is it in real-time, or is it turn-based, or is it first-person…’”</p>
+<p>This approach prioritizes the core subject matter over mechanical constraints, allowing the content to drive the design decisions rather than forcing content into predetermined mechanical frameworks.</p>
+</section>
+<section id="ernest-adams-dream-fulfillment-theory" class="level3">
+<h3 class="anchored" data-anchor-id="ernest-adams-dream-fulfillment-theory">Ernest Adams’ Dream-Fulfillment Theory</h3>
+<p>Game designer Ernest Adams proposes that computer games exist to fulfill dreams. His approach suggests starting with a dream, then considering what it would be like to actually live that experience.</p>
+<p>Consider the dream of being someone else entirely - the President of Ireland, a movie director, an Olympic skater, a rock climber, the world’s greatest programmer, or even a college lecturer. Each of these roles carries specific activities, challenges, and rewards that can be translated into gameplay mechanics.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>While not all games fit the dream-fulfillment model, it provides a powerful framework for thinking about what players really want to experience through your game.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="interactivity" class="level2">
+<h2 class="anchored" data-anchor-id="interactivity">Interactivity</h2>
+<section id="the-central-question" class="level3">
+<h3 class="anchored" data-anchor-id="the-central-question">The Central Question</h3>
+<p>Interactivity is the fundamental reason computer games exist as a medium. Before getting caught up in story elements, character development, artwork, or other aspects of game creation, you must ask and answer one crucial question: <strong>“What is the player going to do?”</strong></p>
+<p>This question takes precedence over all others because it defines the core experience that separates games from passive entertainment. Until you understand what actions the player will take and how they will interact with your game world, other design elements remain secondary.</p>
+</section>
+<section id="the-inside-out-approach" class="level3">
+<h3 class="anchored" data-anchor-id="the-inside-out-approach">The Inside-Out Approach</h3>
+<p>Rather than beginning at the traditional “beginning” of a story or experience, effective game design often benefits from an inside-out approach. Start with the primary gameplay mode - the core interactive experience - and work outward from there.</p>
+<p>Define this primary mode thoroughly before moving on to other game modes. Consider the player’s role, the interaction model, the perspective, the setting, the challenges the player will confront, the mechanics that create those challenges, and the actions the player takes to overcome them.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Create supporting material later in the design process. It’s always easier to fix story elements, user interface issues, and other peripheral concerns than to fix an uninteresting or unplayable core game.</p>
+</div>
+</div>
+</section>
+<section id="defining-the-players-role" class="level3">
+<h3 class="anchored" data-anchor-id="defining-the-players-role">Defining the Player’s Role</h3>
+<p>Who is the player trying to be within your game world? This question proves critical for representational and realistic games, where the player needs a clear understanding of their identity and capabilities.</p>
+<p>Some games feature multiple roles within a single experience. A football game might allow players to act as manager, coach, or individual player, each with distinct responsibilities and interaction methods. If you can’t describe the player’s role clearly and concisely, it will likely confuse players and undermine their engagement with the game.</p>
+</section>
+<section id="interaction-models" class="level3">
+<h3 class="anchored" data-anchor-id="interaction-models">Interaction Models</h3>
+<p>Games typically employ one of two primary interaction models. The <strong>avatar model</strong> involves a single character or object that represents the player, with the player’s actions limited to what can be accomplished from the avatar’s current location.</p>
+<p>The <strong>omnipresence model</strong> (though not necessarily omniscience) allows players to act in many or all places within the game world simultaneously. Chess provides an obvious example - players can move any of their pieces regardless of location. However, omnipresence doesn’t guarantee omniscience; concepts like “fog of war” can limit player knowledge while maintaining broad interactive capability.</p>
+</section>
+</section>
+<section id="perspectives" class="level2">
+<h2 class="anchored" data-anchor-id="perspectives">Perspectives</h2>
+<section id="visual-viewpoints" class="level3">
+<h3 class="anchored" data-anchor-id="visual-viewpoints">Visual Viewpoints</h3>
+<p>Different perspectives create fundamentally different player experiences and affect how players understand and interact with the game world.</p>
+<p><strong>First-person perspective</strong> places the camera at the character’s eye level, creating intimate connection with the game world. Classic examples include Doom and Quake, where this viewpoint enhances the immediacy and tension of combat encounters.</p>
+<p><strong>Third-person perspective</strong> shows the player character from behind or to the side, allowing players to see their character’s actions and reactions. Tomb Raider exemplifies this approach, letting players watch Lara Croft’s athletic movements while maintaining spatial awareness of her surroundings.</p>
+<p><strong>Side-scrolling perspective</strong> presents the game world from a side view, often emphasizing platforming and linear progression. Sonic games demonstrate how this perspective can create fast-paced, momentum-based gameplay.</p>
+<p><strong>Aerial perspectives</strong> include both isometric and top-down views. Isometric perspective, used in games like Starcraft and various football games, provides three-dimensional spatial information while maintaining clarity for strategic decision-making. Top-down perspective, seen in games like Total Annihilation, offers complete overhead views ideal for tactical planning.</p>
+<p><strong>Context-sensitive perspective</strong> changes based on gameplay needs. Resident Evil pioneered this approach, switching between different camera angles to enhance specific moments or gameplay requirements.</p>
+</section>
+<section id="multiple-game-modes-and-perspectives" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-game-modes-and-perspectives">Multiple Game Modes and Perspectives</h3>
+<p>Many games successfully combine different perspectives across multiple modes, each optimized for specific types of gameplay.</p>
+<p><strong>Dungeon Keeper</strong> demonstrates this approach with three distinct modes: management mode uses isometric, omnipresent perspective for strategic planning; map mode employs top-down, omnipresent view with limited actions; and possession mode switches to first-person, avatar-based tactical gameplay.</p>
+<p><strong>Soccer games</strong> often feature management mode (like FIFA’s career mode), play-calling with isometric, omnipresent strategic view, and play execution using either isometric or first-person avatar-based tactical control.</p>
+<p><strong>Sid Meier’s Pirates!</strong> showcases multiple perspectives across different game areas: sea and island exploration using isometric, omnipresent strategic view; city navigation with top-down, omnipresent perspective for stealth gameplay; and dueling or dancing with first-person, avatar-based tactical interaction.</p>
+</section>
+<section id="game-structure-and-mode-relationships" class="level3">
+<h3 class="anchored" data-anchor-id="game-structure-and-mode-relationships">Game Structure and Mode Relationships</h3>
+<p>The relationship between different game modes requires careful consideration. Some modes are entered by explicit player choice, while others occur as part of natural progression through the game.</p>
+<p>State diagrams can help visualize these relationships, showing how players move between different modes and what triggers these transitions. This structural planning ensures smooth flow between different types of gameplay and prevents jarring shifts that might break player immersion.</p>
+</section>
+</section>
+<section id="game-dimensions" class="level2">
+<h2 class="anchored" data-anchor-id="game-dimensions">Game Dimensions</h2>
+<section id="physical-dimension" class="level3">
+<h3 class="anchored" data-anchor-id="physical-dimension">Physical Dimension</h3>
+<p>The physical dimension encompasses several critical aspects of game world design. <strong>Dimensionality</strong> determines whether your game operates in 2D, 3D, or even 4D (multiple 3D spaces). Remember that 3D should be chosen for design reasons, not simply because it seems more impressive or modern.</p>
+<p><strong>Scale</strong> addresses how big the game world is and how objects relate to each other in size. This affects everything from navigation to combat to resource management. <strong>Boundaries</strong> define what happens at the edge of the game world - do players hit invisible walls, loop around to the other side, or face some other limitation? Consider whether boundary solutions maintain or break suspension of disbelief.</p>
+</section>
+<section id="temporal-dimension" class="level3">
+<h3 class="anchored" data-anchor-id="temporal-dimension">Temporal Dimension</h3>
+<p>Time can play various roles in game design, from purely cosmetic to mechanically crucial. Ask whether time is meaningful in your game - does the passage of time itself change gameplay conditions or create new challenges?</p>
+<p>Games can operate in <strong>real-time</strong> or <strong>turn-based</strong> systems, each creating different strategic and tactical considerations. <strong>Variable time</strong> allows certain activities to progress at different speeds - The Sims demonstrates this by speeding up time while characters sleep. <strong>Anomalous time</strong> lets different elements progress at different rates simultaneously.</p>
+<p>Consider whether players can adjust time flow, a feature commonly seen in flight simulators and real-time strategy games that allows players to pause, slow down, or speed up action as needed.</p>
+</section>
+<section id="environmental-dimension" class="level3">
+<h3 class="anchored" data-anchor-id="environmental-dimension">Environmental Dimension</h3>
+<p>The environmental dimension includes both cultural context and physical surroundings. <strong>Cultural context</strong>, in the anthropological sense, encompasses beliefs, attitudes, values, social systems, family structures, key ceremonies and rituals, and historical background.</p>
+<p><strong>Physical surroundings</strong> cover landscape, flora, fauna, weather patterns, and human-made elements including buildings, vehicles, clothing, weaponry, furniture, and art. The <strong>level of detail</strong> determines what players can see, touch, and interact with, affecting both immersion and gameplay complexity.</p>
+<p><strong>Graphical style</strong> involves both the style of the setting itself and your specific approach to depicting that setting, influencing the game’s aesthetic appeal and emotional impact.</p>
+</section>
+<section id="emotional-dimension" class="level3">
+<h3 class="anchored" data-anchor-id="emotional-dimension">Emotional Dimension</h3>
+<p>Consider both the emotions of characters within the game world and the emotions you hope to inspire in players. Most games limit emotional range to basic responses like excitement (“Yahoo!”) and frustration (“Damn!”), but more sophisticated emotional experiences are possible.</p>
+<p>Explore deeper emotions such as jealousy, grief, anger, greed, and disdain. The key question becomes: how will your game design inspire these emotions through gameplay mechanics, narrative elements, and player choices?</p>
+</section>
+<section id="ethical-dimension" class="level3">
+<h3 class="anchored" data-anchor-id="ethical-dimension">Ethical Dimension</h3>
+<p>Ethics in games differ fundamentally from passive entertainment. In passive media, viewers bring their own ethical systems to the work. In interactive entertainment, designers provide players with an ethical framework through game rules and victory conditions.</p>
+<p><strong>The victory condition defines what is “good”</strong> within the game world. Players must conform to the designer’s embedded morality to succeed, making ethical considerations a crucial design responsibility.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Games encounter ethical problems when they are highly representational of the real world AND their ethics are highly disconnected from real-world moral systems. It’s generally acceptable to kill aliens and robots realistically, or to kill people unrealistically, but realistic depictions of morally questionable real-world actions can create controversy.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="game-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="game-challenges">Game Challenges</h2>
+<section id="physical-challenges" class="level3">
+<h3 class="anchored" data-anchor-id="physical-challenges">Physical Challenges</h3>
+<p>Physical challenges test player dexterity and reaction capabilities. <strong>Speed and reaction time</strong> challenges, often called “twitch games,” require rapid responses to changing situations. <strong>Accuracy and precision</strong> challenges appear in activities like steering vehicles or aiming weapons, testing fine motor control.</p>
+<p><strong>Timing and rhythm</strong> challenges, exemplified by dance games, require players to match specific temporal patterns. <strong>Learning special moves</strong>, common in fighting games, combines memorization with execution skills. <strong>Races</strong> create urgency by requiring players to achieve objectives before opponents do.</p>
+</section>
+<section id="logical-challenges" class="level3">
+<h3 class="anchored" data-anchor-id="logical-challenges">Logical Challenges</h3>
+<p>Logical challenges, or puzzles, should be based on underlying principles rather than trial-and-error experimentation. When players must guess randomly to progress, it typically indicates poor puzzle design. Effective logical challenges give players sufficient information to reason through solutions systematically.</p>
+</section>
+<section id="exploration-challenges" class="level3">
+<h3 class="anchored" data-anchor-id="exploration-challenges">Exploration Challenges</h3>
+<p>Exploration challenges encourage players to investigate and navigate game spaces. These might include <strong>locked doors and traps</strong> that require specific items or knowledge to overcome, <strong>mazes and illogical spaces</strong> that test spatial reasoning and memory, and <strong>teleporters</strong> that create non-intuitive navigation puzzles.</p>
+</section>
+<section id="conflict-challenges" class="level3">
+<h3 class="anchored" data-anchor-id="conflict-challenges">Conflict Challenges</h3>
+<p>Conflict encompasses <strong>strategy, tactics, and logistics</strong>. While logistics (such as feeding armies) is rarely emphasized in games, it offers rich design possibilities. Common conflict challenges include <strong>survival and reduction of enemy forces</strong>, <strong>defending vulnerable items or units</strong>, and <strong>stealth</strong> scenarios that require avoiding rather than confronting opposition.</p>
+</section>
+<section id="economic-challenges" class="level3">
+<h3 class="anchored" data-anchor-id="economic-challenges">Economic Challenges</h3>
+<p>Economic challenges focus on resource management and system optimization. These include <strong>accumulating wealth or points</strong>, <strong>efficient manufacturing</strong> processes, <strong>achieving balance or stability</strong> in complex systems, and <strong>caring for living things</strong> within those systems.</p>
+</section>
+<section id="conceptual-challenges" class="level3">
+<h3 class="anchored" data-anchor-id="conceptual-challenges">Conceptual Challenges</h3>
+<p>Conceptual challenges require <strong>understanding something new</strong> through <strong>deduction, observation, and interpretation</strong>. Detective games exemplify this category by requiring players to piece together information and draw logical conclusions to solve mysteries.</p>
+</section>
+</section>
+<section id="game-mechanics" class="level2">
+<h2 class="anchored" data-anchor-id="game-mechanics">Game Mechanics</h2>
+<section id="core-mechanics-and-internal-economy" class="level3">
+<h3 class="anchored" data-anchor-id="core-mechanics-and-internal-economy">Core Mechanics and Internal Economy</h3>
+<p>Core mechanics define the internal economy that drives most games forward. Understanding this economy is crucial for creating balanced, engaging gameplay.</p>
+<p>Consider a first-person shooter’s economy: <strong>resources</strong> include ammunition and hit points; <strong>sources</strong> include ammunition clips and medical kits; <strong>drains</strong> include firing weapons and taking damage from enemies. Game balance emerges from carefully adjusting the relationships between these elements.</p>
+</section>
+<section id="balance-principles" class="level3">
+<h3 class="anchored" data-anchor-id="balance-principles">Balance Principles</h3>
+<p>Balance involves making games <strong>fair</strong> (all players have equal chances of winning at the start), appropriately <strong>challenging</strong> (neither too hard nor too easy), and <strong>winnable</strong> (games must be able to conclude).</p>
+<p><strong>Symmetry</strong> provides the simplest approach to balance - games like Chess and most deathmatch games give all players identical starting conditions and capabilities. <strong>Asymmetry</strong> proves harder to balance but often creates more interesting gameplay, as seen in strategy games like Starcraft and Warcraft where different factions have unique strengths and weaknesses.</p>
+</section>
+<section id="positive-feedback" class="level3">
+<h3 class="anchored" data-anchor-id="positive-feedback">Positive Feedback</h3>
+<p>Positive feedback occurs when achievements make subsequent achievements easier. Taking an opponent’s piece in Chess provides advantage, and if you could use captured pieces as your own, the advantage would compound further.</p>
+<p>Without positive feedback, games risk stalemate conditions where no player can gain decisive advantage. However, positive feedback must be controlled to prevent leading players from gaining insurmountable advantages.</p>
+<p>Examples include getting ahead in a race and becoming more likely to collect power-ups, acquiring property in Monopoly that generates more income, or the way churned water in swimming races slows down trailing competitors.</p>
+</section>
+<section id="controlling-positive-feedback" class="level3">
+<h3 class="anchored" data-anchor-id="controlling-positive-feedback">Controlling Positive Feedback</h3>
+<p>Several mechanisms can control excessive positive feedback:</p>
+<p><strong>Introduce negative feedback</strong> - achievements that make subsequent achievements harder. Examples include gold that slows down movement or upkeep costs that increase with expansion.</p>
+<p><strong>Increase the impact of chance</strong> - if chance elements are fair, they help and hurt all players equally over time.</p>
+<p><strong>Define victory in non-numeric ways</strong> - Chess wins through checkmate rather than piece count, preventing simple accumulation strategies.</p>
+<p><strong>Increase difficulty as feedback kicks in</strong> - role-playing games demonstrate this by scaling enemy strength to match player advancement.</p>
+</section>
+<section id="negative-feedback-examples" class="level3">
+<h3 class="anchored" data-anchor-id="negative-feedback-examples">Negative Feedback Examples</h3>
+<p>Negative feedback can include getting lost more easily when ahead in races, wind drag in bicycle and car racing, or games like shuffleboard where having pieces in scoring position makes it easier for opponents to score against you.</p>
+</section>
+<section id="balance-progression-patterns" class="level3">
+<h3 class="anchored" data-anchor-id="balance-progression-patterns">Balance Progression Patterns</h3>
+<p>Effective game balance creates an ideal progression where players maintain hope of victory while still experiencing meaningful challenge. Avoid both positive feedback that creates runaway victories and negative feedback so strong that leads constantly change hands without player agency mattering.</p>
+<pre class="quiz"><code>Which approach does Sid Meier recommend for game ideation?
+
+[ ] Start with a genre, then find a topic
+[x] Start with a topic, then determine the best way to bring it to life
+[ ] Always begin with cutting-edge technology
+[ ] Focus on market research first
+
+What is the most important question to ask when designing game interactivity?
+
+[x] "What is the player going to do?"
+[ ] "What story do we want to tell?"
+[ ] "What graphics engine should we use?"
+[ ] "Who is our target audience?"
+
+Which represents positive feedback in game design?
+
+[ ] Gold that slows you down when collected
+[x] Taking an opponent's chess piece
+[ ] Increasing difficulty as players advance
+[ ] Random events that affect all players equally</code></pre>
+</section>
+</section>
+<section id="game-worlds" class="level2">
+<h2 class="anchored" data-anchor-id="game-worlds">Game Worlds</h2>
+<section id="mental-spaces-and-rules" class="level3">
+<h3 class="anchored" data-anchor-id="mental-spaces-and-rules">Mental Spaces and Rules</h3>
+<p>The game world exists as a mental space - a conceptual area that is explicitly not-the-real-world. This space operates under its own rules and is entered through the conscious choice to play. Players understand and accept that different logic, physics, and social rules may apply within this space.</p>
+<p>The game setting represents the fictional component of this world, contributing to entertainment through immersion and fantasy. However, the relationship between setting and gameplay importance varies significantly. The more absorbing the core gameplay, the less crucial elaborate setting becomes - Chess and Quake players often ignore thematic elements entirely, focusing instead on mechanical interactions.</p>
+</section>
+<section id="communicating-ideas" class="level3">
+<h3 class="anchored" data-anchor-id="communicating-ideas">Communicating Ideas:</h3>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../week-02/games-as-engines.html" class="pagination-link" aria-label="Games as Engines of Experience">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Games as Engines of Experience</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../week-03/game-design-fundamentals.html" class="pagination-link" aria-label="Game Design Fundamentals">
+        <span class="nav-page-text">Game Design Fundamentals</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<!-- Render ```mermaid fenced code blocks that Quarto leaves as plain code -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var fenced = document.querySelectorAll('pre.sourceCode.mermaid');
+    if (!fenced.length) return;
+    function run() {
+      mermaid.initialize({ startOnLoad: false, theme: 'dark' });
+      fenced.forEach(function (pre) {
+        var code = pre.querySelector('code');
+        var text = code ? code.textContent : pre.textContent;
+        var wrapper = pre.closest('div.sourceCode') || pre;
+        var div = document.createElement('div');
+        div.className = 'mermaid';
+        div.textContent = text;
+        if (wrapper.parentNode) wrapper.parentNode.replaceChild(div, wrapper);
+      });
+      mermaid.run({ querySelector: '.mermaid' });
+    }
+    if (window.mermaid) {
+      run();
+    } else {
+      var s = document.createElement('script');
+      s.src = 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js';
+      s.onload = run;
+      document.head.appendChild(s);
+    }
+  });
+</script>
+<script defer="" src="https://cdn.jsdelivr.net/npm/alpinejs@3.12.0/dist/cdn.min.js"></script>
+
+
+
+
+</body></html>
