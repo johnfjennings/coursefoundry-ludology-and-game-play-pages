@@ -6,8 +6,8 @@
     "section": "",
     "text": "This lesson introduces the fundamental concepts of level design in game development, exploring how designers create engaging, functional, and memorable game spaces that enhance player experience and support gameplay mechanics.\n\n\n\n\n\n\nNote\n\n\n\nLevel design is one of the most critical aspects of game development, as it directly impacts how players interact with and experience your game world.",
     "crumbs": [
-      "Week 7: Level Design and Game Balance",
-      "Level Design Fundamentals"
+      "Week 07",
+      "Level Design"
     ]
   },
   {
@@ -17,8 +17,8 @@
     "section": "",
     "text": "This lesson introduces the fundamental concepts of level design in game development, exploring how designers create engaging, functional, and memorable game spaces that enhance player experience and support gameplay mechanics.\n\n\n\n\n\n\nNote\n\n\n\nLevel design is one of the most critical aspects of game development, as it directly impacts how players interact with and experience your game world.",
     "crumbs": [
-      "Week 7: Level Design and Game Balance",
-      "Level Design Fundamentals"
+      "Week 07",
+      "Level Design"
     ]
   },
   {
@@ -28,8 +28,8 @@
     "section": "What is Level Design?",
     "text": "What is Level Design?\nLevel design is the process of creating the environments, spaces, and challenges that players navigate through in a game. It encompasses both the physical layout of game spaces and the strategic placement of gameplay elements, obstacles, and objectives.\n\nCore Elements of Level Design\nLevel designers must consider several key elements when creating game spaces:\n\nSpatial layout and architecture\nPlayer movement and navigation\nChallenge progression and difficulty curves\nVisual storytelling and atmosphere\nGameplay flow and pacing",
     "crumbs": [
-      "Week 7: Level Design and Game Balance",
-      "Level Design Fundamentals"
+      "Week 07",
+      "Level Design"
     ]
   },
   {
@@ -39,8 +39,8 @@
     "section": "Fundamental Principles",
     "text": "Fundamental Principles\n\nPlayer Flow and Navigation\nEffective level design guides players naturally through the game space without making them feel lost or confused. This involves:\n\nClear visual hierarchies that draw attention to important areas\nIntuitive pathways that feel natural to explore\nStrategic use of lighting, color, and composition\nAppropriate signposting and wayfinding elements\n\n\n\n\n\n\n\nTip\n\n\n\nPlayers should always know where they’ve been, where they are, and have a general sense of where they need to go next.\n\n\n\n\nDifficulty Progression\nWell-designed levels introduce new challenges gradually, allowing players to master mechanics before adding complexity:\n\nStart with simple, familiar elements\nIntroduce one new concept at a time\nProvide safe spaces for players to practice\nBuild toward climactic moments that test mastery\n\n\n\nEnvironmental Storytelling\nLevels can tell stories through their design, without relying on explicit narrative elements:\n\nArchitectural choices that reflect the game world’s history\nObject placement that suggests past events\nEnvironmental details that reveal character and mood\nVisual progression that supports narrative arcs",
     "crumbs": [
-      "Week 7: Level Design and Game Balance",
-      "Level Design Fundamentals"
+      "Week 07",
+      "Level Design"
     ]
   },
   {
@@ -50,8 +50,8 @@
     "section": "Design Process and Methodologies",
     "text": "Design Process and Methodologies\n\nIterative Design Approach\nLevel design is an iterative process that involves:\n\nConceptualization - Initial ideas and paper sketches\nPrototyping - Basic layouts using simple geometry\nTesting - Playtesting with focus on flow and functionality\nRefinement - Polishing based on feedback and observation\nFinal implementation - Adding visual polish and details\n\n\n\n\n\n\n\nWarning\n\n\n\nNever skip the prototyping phase. Testing core functionality early saves significant time and resources later in development.\n\n\n\n\nPaper Prototyping\nBefore moving to digital tools, many designers start with paper sketches to:\n\nQuickly explore multiple layout options\nTest basic flow and navigation concepts\nCommunicate ideas with team members\nIterate rapidly without technical constraints",
     "crumbs": [
-      "Week 7: Level Design and Game Balance",
-      "Level Design Fundamentals"
+      "Week 07",
+      "Level Design"
     ]
   },
   {
@@ -61,8 +61,8 @@
     "section": "Common Level Design Patterns",
     "text": "Common Level Design Patterns\n\nLinear Progression\n\nPlayers move through spaces in a predetermined sequence\nStrong narrative control and pacing\nClear objectives and direction\nExamples: Many platformers and story-driven games\n\n\n\nOpen Exploration\n\nPlayers can explore areas in multiple orders\nEmphasis on discovery and player agency\nRequires careful consideration of progression gates\nExamples: Open-world games, metroidvanias\n\n\n\nHub-and-Spoke Design\n\nCentral area connects to multiple specialized zones\nCombines linear and open design benefits\nAllows for varied gameplay experiences\nExamples: Many 3D platformers and RPGs",
     "crumbs": [
-      "Week 7: Level Design and Game Balance",
-      "Level Design Fundamentals"
+      "Week 07",
+      "Level Design"
     ]
   },
   {
@@ -72,8 +72,8 @@
     "section": "Technical Considerations",
     "text": "Technical Considerations\n\nPerformance and Optimization\nLevel designers must balance visual quality with technical performance:\n\nPolygon budgets and rendering limits\nTexture memory constraints\nDraw call optimization\nLevel-of-detail (LOD) systems\n\n\n\nModular Design Systems\nModern level design often employs modular approaches:\n\nReusable architectural components\nConsistent scaling and proportion systems\nStandardized connection points\nEfficient content creation workflows\n\n\n\n\n\n\n\nNote\n\n\n\nModular systems allow for faster iteration and more consistent visual quality across large game worlds.",
     "crumbs": [
-      "Week 7: Level Design and Game Balance",
-      "Level Design Fundamentals"
+      "Week 07",
+      "Level Design"
     ]
   },
   {
@@ -83,8 +83,8 @@
     "section": "Player Psychology and Level Design",
     "text": "Player Psychology and Level Design\n\nCognitive Load Management\nEffective levels manage how much information players must process:\n\nGradual introduction of new elements\nClear visual hierarchies\nAppropriate use of contrast and emphasis\nStrategic placement of rest areas\n\n\n\nEmotional Pacing\nLevels should create emotional rhythms through:\n\nAlternating tension and relief\nBuilding toward climactic moments\nProviding quiet spaces for exploration\nSupporting the overall emotional arc",
     "crumbs": [
-      "Week 7: Level Design and Game Balance",
-      "Level Design Fundamentals"
+      "Week 07",
+      "Level Design"
     ]
   },
   {
@@ -94,8 +94,8 @@
     "section": "Summary",
     "text": "Summary\nKey takeaways from this lesson on level design fundamentals:\n\nPlayer-centered approach: Always design with the player’s experience and capabilities in mind, ensuring clear navigation and appropriate challenge progression\nIterative development: Use rapid prototyping and continuous playtesting to refine your designs before investing in visual polish\nBalance multiple concerns: Effective level design must simultaneously address gameplay flow, narrative support, technical constraints, and emotional pacing\nEnvironmental storytelling: Use spatial design, object placement, and visual details to communicate story and mood without relying solely on explicit narrative elements\nSystematic thinking: Employ consistent design patterns and modular approaches to create cohesive, efficient, and scalable level design systems",
     "crumbs": [
-      "Week 7: Level Design and Game Balance",
-      "Level Design Fundamentals"
+      "Week 07",
+      "Level Design"
     ]
   },
   {
@@ -105,8 +105,8 @@
     "section": "",
     "text": "Reflective writing is a powerful tool for deepening learning and developing critical thinking skills in game design education. Through structured reflection on experiences, concepts, and creative processes, students can enhance their understanding of ludology and gameplay while developing metacognitive awareness of their own learning journey.",
     "crumbs": [
-      "Week 1: Introduction and Course Overview",
-      "Reflective Writing and Learning"
+      "Week 01",
+      "Reflective Writing"
     ]
   },
   {
@@ -116,8 +116,8 @@
     "section": "",
     "text": "Reflective writing is a powerful tool for deepening learning and developing critical thinking skills in game design education. Through structured reflection on experiences, concepts, and creative processes, students can enhance their understanding of ludology and gameplay while developing metacognitive awareness of their own learning journey.",
     "crumbs": [
-      "Week 1: Introduction and Course Overview",
-      "Reflective Writing and Learning"
+      "Week 01",
+      "Reflective Writing"
     ]
   },
   {
@@ -127,8 +127,8 @@
     "section": "Understanding Reflective Journals",
     "text": "Understanding Reflective Journals\nReflective journals are personal records of students’ learning experiences that serve as a bridge between theoretical knowledge and practical application. In the context of game design and ludology, these journals capture learning-related incidents that occur during or after educational experiences.\nStudents are typically asked by instructors to record various types of learning events, including:\n\nResponses to course content and theoretical frameworks\nReflections on assignments and creative projects\nExamination experiences and preparation strategies\nPersonal ideas and creative breakthroughs\nThought processes about specific class discussions or activities\n\n\n\n\n\n\n\nNote\n\n\n\nJournal entries are submitted to instructors for feedback, creating a dialogue between student and educator that enhances the learning process.",
     "crumbs": [
-      "Week 1: Introduction and Course Overview",
-      "Reflective Writing and Learning"
+      "Week 01",
+      "Reflective Writing"
     ]
   },
   {
@@ -138,8 +138,8 @@
     "section": "Writing Style for Game Design Journals",
     "text": "Writing Style for Game Design Journals\nFor ludology and gameplay journals and blogs, students should adopt a formal writing style that demonstrates professional communication skills. This approach is particularly important because reflective entries are often published online on publicly accessible blogging platforms.\nKey elements of appropriate writing style include:\n\nUse of correct game design and ludology terminology\nIntegration of factual information and course concepts\nClear connections between personal experiences and theoretical frameworks\nProfessional tone suitable for public academic discourse\n\n\n\n\n\n\n\nTip\n\n\n\nRemember that your reflective writing represents your academic work and professional development in the field of game design.",
     "crumbs": [
-      "Week 1: Introduction and Course Overview",
-      "Reflective Writing and Learning"
+      "Week 01",
+      "Reflective Writing"
     ]
   },
   {
@@ -149,8 +149,8 @@
     "section": "Purpose and Benefits of Reflective Writing",
     "text": "Purpose and Benefits of Reflective Writing\nReflective writing serves multiple educational purposes beyond simply learning how to write effectively. The practice of reflection can significantly enhance student learning through several mechanisms:\nCritical Thinking Enhancement: Regular reflection encourages deeper analysis of game design concepts and their applications, moving beyond surface-level understanding to sophisticated evaluation of ideas and practices.\nMetacognitive Development: Reflection helps students think about their own thinking processes, developing awareness of how they learn, what challenges they face, and what strategies work best for their individual learning style.\nAcademic Preparation: The reflective process helps students prepare more effectively for assignments and examinations by encouraging them to synthesize and organize their learning experiences.",
     "crumbs": [
-      "Week 1: Introduction and Course Overview",
-      "Reflective Writing and Learning"
+      "Week 01",
+      "Reflective Writing"
     ]
   },
   {
@@ -160,8 +160,8 @@
     "section": "Types of Reflective Analysis",
     "text": "Types of Reflective Analysis\nEffective reflection involves multiple layers of analysis that build upon each other. The following framework illustrates how reflection can deepen from basic observation to sophisticated critique.\n\nObservations\nAt this foundational level, students record what they actually witnessed or experienced from their particular perspective. This involves documenting events without interpretation or analysis.\nExample: “During the game development workshop, I observed that team members struggled to communicate their design vision when working on the puzzle mechanics.”\n\n\nQuestions\nUpon reflection, students formulate questions that probe deeper into the observed phenomena, seeking to understand underlying causes or patterns.\nExample: “Why do team members find it difficult to articulate their game design ideas clearly, and how does this communication challenge affect the overall development process?”\n\n\nSpeculations\nAfter considering the situation more deeply, students develop hypotheses or potential explanations for what they observed, drawing on their growing knowledge of game design principles.\nExample: “Perhaps the communication difficulties arise because team members have different levels of experience with design vocabulary, or maybe the abstract nature of game mechanics makes them inherently difficult to describe verbally.”\n\n\nSelf-Awareness\nStudents place themselves within the context of their observations, considering how the situation affects them personally and what their role might be in similar scenarios.\nExample: “I realize that I also struggle with explaining my design ideas clearly and need to develop better communication skills. I should practice using precise terminology and visual aids when presenting concepts to teammates.”\n\n\nIntegration of Theory and Ideas\nAt this level, students connect their experiences with theoretical frameworks and concepts learned in coursework, demonstrating sophisticated understanding of ludological principles.\nExample: “The communication challenges we experienced relate to Schell’s discussion of the ‘elemental tetrad’ in game design, where mechanics, aesthetics, story, and technology must be balanced. Clear communication about each element is essential for successful collaboration.”\n\n\nCritique\nStudents engage in sophisticated analysis and evaluation of situations, demonstrating their ability to assess experiences critically and identify areas for improvement.\nExample: “Reflecting on our team’s communication process, I can see that we need to establish clearer protocols for design discussions and perhaps use collaborative tools that help visualize abstract concepts.”\n\n\n\n\n\n\nWarning\n\n\n\nRemember that critique should be constructive and focused on learning rather than simply identifying problems.",
     "crumbs": [
-      "Week 1: Introduction and Course Overview",
-      "Reflective Writing and Learning"
+      "Week 01",
+      "Reflective Writing"
     ]
   },
   {
@@ -171,8 +171,8 @@
     "section": "The Cyclical Nature of Reflection",
     "text": "The Cyclical Nature of Reflection\nReflection is fundamentally a cyclical process where recording thoughts and experiences leads to improvement and insight. This continuous cycle of documentation, analysis, and application creates opportunities for ongoing growth and development.\nThe cyclical nature means that:\n\nProgress occurs gradually through repeated engagement with reflective practices\nDevelopment happens as students gain new perspectives on their learning\nGrowth emerges from the accumulation of reflective insights over time\nMaturity develops as students become more sophisticated in their analytical abilities\nEnhancement of learning occurs through the integration of reflection with coursework\n\n\n\n\n\n\n\nTip\n\n\n\nStudents should focus on capturing both challenging and successful experiences, as both contribute to learning and development.",
     "crumbs": [
-      "Week 1: Introduction and Course Overview",
-      "Reflective Writing and Learning"
+      "Week 01",
+      "Reflective Writing"
     ]
   },
   {
@@ -182,8 +182,8 @@
     "section": "Method for Creating Reflective Journals",
     "text": "Method for Creating Reflective Journals\nEffective reflective writing follows a structured approach that ensures comprehensive analysis and meaningful insight generation. The following framework provides a systematic method for creating reflective journal entries.\n\nWrite and Record\nBegin by documenting the fundamental details of your experience:\n\nDescribe the situation: Provide context about the course content, assignment, or learning environment\nIdentify participants: Note who was involved and their roles in the situation\nExplain relationships: Clarify how different people or elements connected to the overall experience\n\n\n\nReflect and Think About\nMove beyond documentation to explore your emotional and intellectual responses:\n\nExamine your reactions: What was your immediate response to the situation?\nIdentify feelings: How did the experience make you feel, and why?\nEvaluate aspects: What elements of the situation were positive, and which were challenging?\nAssess learning: What new knowledge, skills, or insights did you gain?\n\n\n\nAnalyze, Explain, and Gain Insight\nEngage in deeper analysis to understand the broader implications:\n\nInvestigate underlying dynamics: What was really happening beneath the surface?\nMake sense of complexity: How can you interpret the situation within the context of game design principles?\nIntegrate theoretical knowledge: How do course concepts and theories illuminate your experience?\nDemonstrate growth: How has this situation contributed to your awareness and self-development?\n\n\n\nDraw Conclusions\nSynthesize your analysis to extract meaningful learnings:\n\nGeneral conclusions: What broad principles or patterns emerge from this experience?\nSpecific insights: What particular lessons apply to your individual development as a game designer?\n\n\n\nCreate Personal Action Plan\nTranslate insights into concrete steps for future improvement:\n\nIdentify changes: What will you do differently in similar situations moving forward?\nPlan specific steps: What concrete actions will you take based on your learning?\n\n\n\n\n\n\n\nNote\n\n\n\nThe goal is to see progression over time and gain a sense of achievement through regular reflective practice.",
     "crumbs": [
-      "Week 1: Introduction and Course Overview",
-      "Reflective Writing and Learning"
+      "Week 01",
+      "Reflective Writing"
     ]
   },
   {
@@ -193,8 +193,8 @@
     "section": "Benefits as a Teaching and Learning Tool",
     "text": "Benefits as a Teaching and Learning Tool\nReflective journals and learning logs serve as valuable pedagogical tools that can be adapted across various aspects of game design education. They provide instructors with insight into student learning processes while helping students develop self-directed learning skills.\nKey benefits include:\n\nAssessment of understanding: Instructors can determine what students are learning and identify areas where additional support is needed\nPersonalized feedback: The journal format allows for individualized responses to student learning needs\nContinuous monitoring: Regular entries provide ongoing insight into student progress rather than snapshot assessments\n\n\n\n\n\n\n\nTip\n\n\n\nBe open to providing feedback more frequently than scheduled when students request additional guidance through their reflective entries.",
     "crumbs": [
-      "Week 1: Introduction and Course Overview",
-      "Reflective Writing and Learning"
+      "Week 01",
+      "Reflective Writing"
     ]
   },
   {
@@ -204,8 +204,8 @@
     "section": "Summary",
     "text": "Summary\nReflective writing represents a crucial component of game design education that extends far beyond simple documentation of experiences. Key takeaways include:\n\nStructured reflection enhances critical thinking through systematic analysis of learning experiences and game design concepts\nMultiple levels of analysis - from basic observation through sophisticated critique - allow students to develop increasingly sophisticated analytical skills\nThe cyclical nature of reflection creates opportunities for continuous improvement and deeper understanding over time\nFormal writing standards are essential when publishing reflective work on public platforms, requiring proper use of terminology and professional communication skills\nPersonal action planning transforms insights into concrete steps for ongoing development as game designers and critical thinkers",
     "crumbs": [
-      "Week 1: Introduction and Course Overview",
-      "Reflective Writing and Learning"
+      "Week 01",
+      "Reflective Writing"
     ]
   },
   {
@@ -215,7 +215,7 @@
     "section": "",
     "text": "Game design concepts have existed for some time, but have recently gained much attention through computer technology. Unlike software engineering, game design is not standardized or process-driven. Instead, it relies on broad conceptual definitions that build from general design principles to specific computer game design applications.\nThe field encompasses a progression from basic design concepts to game design principles, and finally to the specialized domain of computer game design. Understanding these foundational concepts is essential for anyone looking to create engaging and meaningful gaming experiences.",
     "crumbs": [
-      "Week 3: Fundamentals of Game Design",
+      "Week 03",
       "Game Design Fundamentals"
     ]
   },
@@ -226,7 +226,7 @@
     "section": "",
     "text": "Game design concepts have existed for some time, but have recently gained much attention through computer technology. Unlike software engineering, game design is not standardized or process-driven. Instead, it relies on broad conceptual definitions that build from general design principles to specific computer game design applications.\nThe field encompasses a progression from basic design concepts to game design principles, and finally to the specialized domain of computer game design. Understanding these foundational concepts is essential for anyone looking to create engaging and meaningful gaming experiences.",
     "crumbs": [
-      "Week 3: Fundamentals of Game Design",
+      "Week 03",
       "Game Design Fundamentals"
     ]
   },
@@ -237,7 +237,7 @@
     "section": "What is Design?",
     "text": "What is Design?\nDesign is the process by which a designer creates a context to be encountered by a participant, from which meaning emerges. This fundamental definition applies broadly across all design disciplines and provides the foundation for understanding game design specifically.\nWhen we apply this definition to games, we can identify four key components:\n\nDesigner: The individual game designer, or even a whole culture that shapes the gaming experience\nContext: The spaces, objects, narratives, and behaviors that make up the game world\nParticipants: The players who engage with the designed system\nMeaning: The meaningful play that emerges from the interaction\n\n\n\n\n\n\n\nNote\n\n\n\nThis definition emphasizes that design is not just about creating objects or systems, but about crafting experiences that generate meaning through participant interaction.",
     "crumbs": [
-      "Week 3: Fundamentals of Game Design",
+      "Week 03",
       "Game Design Fundamentals"
     ]
   },
@@ -248,7 +248,7 @@
     "section": "Successful Game Design",
     "text": "Successful Game Design\nThe goal of successful game design is the creation of meaningful play. This concept can be illustrated through various gaming contexts:\n\nThe intellectual dueling of two players in a well-matched game of Chess\nThe improvisational, team-based coordination required in Basketball\nThe dynamic shifting of individual and communal identities in online role-playing games like EverQuest\nThe lifestyle-invading experience of games like Half-Life played on a college campus\n\nEach of these examples demonstrates how successful game design creates contexts where players find deep engagement and meaning through their interactions with the game system.",
     "crumbs": [
-      "Week 3: Fundamentals of Game Design",
+      "Week 03",
       "Game Design Fundamentals"
     ]
   },
@@ -259,7 +259,7 @@
     "section": "Meaningful Play",
     "text": "Meaningful Play\nMeaningful play can be understood through two complementary definitions:\n\nDescriptive Definition\nMeaningful play emerges from the relationship between player action and system outcome. It is the process by which a player takes action within the designed system of a game and the system responds to that action. The meaning of an action in a game resides in the relationship between the action and its outcome.\n\n\nEvaluative Definition\nMeaningful play occurs when the relationships between actions and outcomes in a game are both discernible and integrated into the larger context of the game. Players must be able to understand the consequences of their actions and see how those consequences fit into the broader game experience.\n\n\n\n\n\n\nTip\n\n\n\nThe two ways of defining meaningful play are closely related. Designing successful games requires understanding meaningful play in both senses - both how meaning emerges from player-system interaction and how that meaning integrates into the larger game context.",
     "crumbs": [
-      "Week 3: Fundamentals of Game Design",
+      "Week 03",
       "Game Design Fundamentals"
     ]
   },
@@ -270,7 +270,7 @@
     "section": "Semiotics in Game Design",
     "text": "Semiotics in Game Design\nSemiotics is the study of meaning, primarily concerned with how signs represent or denote concepts. People use signs to designate objects or ideas, and because a sign represents something other than itself, we interpret the representation as the meaning of the sign.\n\nFour Key Semiotic Concepts\n\nA sign represents something other than itself - Game elements often stand for concepts beyond their literal representation\nSigns are interpreted - Players actively decode the meaning of game elements\nMeaning results when a sign is interpreted - The interpretation process creates understanding\nContext shapes interpretation - The surrounding environment influences how signs are understood\n\nUnderstanding semiotics helps game designers create systems where visual, audio, and interactive elements communicate effectively with players.",
     "crumbs": [
-      "Week 3: Fundamentals of Game Design",
+      "Week 03",
       "Game Design Fundamentals"
     ]
   },
@@ -281,7 +281,7 @@
     "section": "Systems Thinking",
     "text": "Systems Thinking\nA system has many parts that interrelate to form a complex whole. All systems contain four essential elements:\n\nObjects: The parts, elements, or variables within the system\nAttributes: Qualities or properties of the system and its objects\nInternal relationships: Relations among the objects\nEnvironment: The context that surrounds the system",
     "crumbs": [
-      "Week 3: Fundamentals of Game Design",
+      "Week 03",
       "Game Design Fundamentals"
     ]
   },
@@ -292,7 +292,7 @@
     "section": "Game Systems",
     "text": "Game Systems\nGames can be understood as systems operating on three different levels simultaneously. These four system elements (objects, attributes, internal relationships, environment) can be framed differently within gaming contexts:\n\nFormal systems: The mechanical structure of the game\nExperiential systems: The player’s lived experience with the game\nCultural systems: The broader cultural context in which the game exists\n\n\n\n\n\n\n\nNote\n\n\n\nAll three frames exist simultaneously. A game as a formal system is always embedded within an experiential system, and a game as a cultural system contains both formal and experiential systems.\n\n\n\nChess as a System Example\nChess as a Formal System: - Objects: pieces on the board, the board itself - Attributes: characteristics given to the objects, defined by the rules - Internal Relationships: spatial relationships, positions on the board - Environment: the play itself\nChess as an Experiential System: - Objects: the players themselves - Attributes: the pieces a player controls, current state of the game - Internal Relationships: player interaction, social, psychological, and emotional communication - Environment: board, pieces, immediate setting of the game - anything that facilitates the play\nChess as a Cultural System: - Objects: the game of Chess itself, in its broadest cultural sense - Attributes: the designed elements of the game, as well as information on how, when, where, and why the game was made and used - Internal relationships: linkages between the game and culture - Environment: culture itself, in all of its forms",
     "crumbs": [
-      "Week 3: Fundamentals of Game Design",
+      "Week 03",
       "Game Design Fundamentals"
     ]
   },
@@ -303,7 +303,7 @@
     "section": "Interactivity",
     "text": "Interactivity\nInteractivity can be understood through four distinct modes:\n\nCognitive interactivity: interpretive participation\nFunctional interactivity: utilitarian participation\nExplicit interactivity: participation with designed choices and procedures\nBeyond-the-object-interactivity: participation within the culture of the project\n\n\nInteractivity in Game Design\nThe third mode (explicit interactivity) comes closest to defining what we mean when we say games are interactive. Interactivity and gameplay are often synonymous, as both involve designed interaction.\nConsider the difference between rolling dice on a craps table versus rolling an apple - the designed context creates meaningful interaction in the first case but not the second.",
     "crumbs": [
-      "Week 3: Fundamentals of Game Design",
+      "Week 03",
       "Game Design Fundamentals"
     ]
   },
@@ -314,7 +314,7 @@
     "section": "Choice in Games",
     "text": "Choice in Games\nChoice operates at two interconnected levels:\n\nMicro level: each decision at its smallest level\nMacro level: the accumulated choices that form larger choices and outcomes\n\n\n\n\n\n\n\nWarning\n\n\n\nPlayers should understand that their choices at the micro level influence choices at the macro level. This connection is crucial for maintaining player engagement and creating meaningful play.\n\n\n\nDiagnosing Choice\nFor every choice in a game, designers should ask these questions:\n\nWhat happened before the player was given the choice?\nHow is the possibility of a choice conveyed to the player?\nHow did the player make the choice?\nWhat is the result of the choice? How will it affect future choices?\nHow is the result of the choice conveyed to the player?\n\n\n\nCommon Choice Failure States\nWhen choice systems fail, players often experience:\n\nFeeling as if decisions are arbitrary\nNot knowing what to do next\nLosing a game without understanding why\nNot knowing if an action had an outcome",
     "crumbs": [
-      "Week 3: Fundamentals of Game Design",
+      "Week 03",
       "Game Design Fundamentals"
     ]
   },
@@ -325,7 +325,7 @@
     "section": "Integrating Game Design Concepts",
     "text": "Integrating Game Design Concepts\nEffective game design requires understanding how all these concepts work together:\n\nPlayers seek meaning in their play experiences\nSystems thinking helps create coherent formal, experiential, and cultural frameworks\nSemiotics enables meaning-making through representation\nInteractivity defines the core of gameplay\nChoice design ensures that player decisions are meaningful at both micro and macro levels\n\n\n\n\n\n\n\nTip\n\n\n\nThe most successful games seamlessly integrate all these elements to create experiences where every player action feels meaningful and contributes to a larger, coherent whole.",
     "crumbs": [
-      "Week 3: Fundamentals of Game Design",
+      "Week 03",
       "Game Design Fundamentals"
     ]
   },
@@ -336,7 +336,7 @@
     "section": "Summary",
     "text": "Summary\nKey takeaways from game design fundamentals:\n\nGame design is about creating meaningful play through the careful design of contexts that generate meaning when players interact with them.\nGames operate as complex systems that can be understood simultaneously as formal mechanical structures, experiential player interactions, and cultural artifacts.\nEffective choice design requires ensuring that player decisions are meaningful at both the micro level (individual actions) and macro level (accumulated outcomes), with clear communication of possibilities and consequences.\nSemiotics and interactivity work together to create gameplay experiences where signs, symbols, and interactions communicate effectively with players to generate intended meanings.\nSuccessful game design integrates all elements - systems, meaning, choice, and interactivity must work together cohesively to create engaging and meaningful player experiences.",
     "crumbs": [
-      "Week 3: Fundamentals of Game Design",
+      "Week 03",
       "Game Design Fundamentals"
     ]
   },
@@ -347,8 +347,8 @@
     "section": "",
     "text": "The MDA Framework provides a vocabulary for discussing play and addresses the gap between ideas and game mechanics. This formal approach, developed by LeBlanc et al. since 2001, gives game designers a systematic way to understand how games create meaningful experiences for players.\n\n\n\n\n\n\nNote\n\n\n\nMDA stands for Mechanics, Dynamics, and Aesthetics - three interconnected layers that explain how games function and create emotional responses.",
     "crumbs": [
-      "Week 4: MDA Framework",
-      "The MDA Framework"
+      "Week 04",
+      "Mda Framework"
     ]
   },
   {
@@ -358,8 +358,8 @@
     "section": "",
     "text": "The MDA Framework provides a vocabulary for discussing play and addresses the gap between ideas and game mechanics. This formal approach, developed by LeBlanc et al. since 2001, gives game designers a systematic way to understand how games create meaningful experiences for players.\n\n\n\n\n\n\nNote\n\n\n\nMDA stands for Mechanics, Dynamics, and Aesthetics - three interconnected layers that explain how games function and create emotional responses.",
     "crumbs": [
-      "Week 4: MDA Framework",
-      "The MDA Framework"
+      "Week 04",
+      "Mda Framework"
     ]
   },
   {
@@ -369,8 +369,8 @@
     "section": "Understanding the Gap: From Cards to Drama",
     "text": "Understanding the Gap: From Cards to Drama\nConsider this fundamental question in game design: How do we get from simple components like cards and rules to complex experiences involving intrigue, challenge, and drama?\nThe answer lies in understanding the causal link that sets games apart from other forms of media. Games are unique because they create emergent experiences through the interaction of systems and players.",
     "crumbs": [
-      "Week 4: MDA Framework",
-      "The MDA Framework"
+      "Week 04",
+      "Mda Framework"
     ]
   },
   {
@@ -380,8 +380,8 @@
     "section": "The MDA Framework Defined",
     "text": "The MDA Framework Defined\n\nMechanics\nThe rules and concepts that formally specify the game-as-system. These are the foundational elements that define what players can and cannot do within the game world.\n\n\nDynamics\nThe run-time behaviour of the game-as-system + players. This is what actually happens when the mechanics interact with player decisions and actions during gameplay.\n\n\nAesthetics\nThe emotional responses evoked by the game dynamics. These are the feelings and experiences that emerge from the interaction between the game system and the players.\n\n\n\n\n\n\nTip\n\n\n\nThink of MDA as a taxonomy of design knowledge that helps us understand not just the individual components, but the crucial interactions between them.",
     "crumbs": [
-      "Week 4: MDA Framework",
-      "The MDA Framework"
+      "Week 04",
+      "Mda Framework"
     ]
   },
   {
@@ -391,8 +391,8 @@
     "section": "The Designer/Player Relationship",
     "text": "The Designer/Player Relationship\nThe MDA framework reveals an important asymmetry in how designers and players experience games:\n\nThe Player’s Perspective\nPlayers experience games from Aesthetics → Dynamics → Mechanics. They first feel the emotional impact, then understand the gameplay patterns, and finally (if at all) comprehend the underlying rule systems.\n\n\nThe Designer’s Perspective\nDesigners work from Mechanics → Dynamics → Aesthetics. They create rules, anticipate how those rules will play out in practice, and hope to achieve specific emotional responses.\n\n\n\n\n\n\nWarning\n\n\n\nThis asymmetry is why playtesting is crucial - designers must verify that their mechanical choices actually produce the intended aesthetic experiences.",
     "crumbs": [
-      "Week 4: MDA Framework",
-      "The MDA Framework"
+      "Week 04",
+      "Mda Framework"
     ]
   },
   {
@@ -402,8 +402,8 @@
     "section": "Practical Application: The Bartok Experiment",
     "text": "Practical Application: The Bartok Experiment\nLet’s examine how MDA works in practice through the card game Bartok:\n\nBasic Bartok Rules\n\nDeal 5 cards to each player\nTurn over the top card of the deck\nFirst person clockwise from the dealer goes\nPlay a card of the same suit or number, or draw a card\nJokers are wild\nPlay until someone has no more cards\n\n\n\nRule Modifications\nNow consider these rule changes: 1. Cumulative Draw 2 cards: When a 2 is played, the next player must draw 2 cards or play another 2 2. See Last Card in Any Hand: Players can look at any opponent’s last remaining card 3. Out of Turn Play: Players can play out of turn if they have an exact match\n\n\nAnalyzing the Changes with MDA\nMechanics: The rule modifications are clear mechanical changes - new actions and conditions are added to the system.\nDynamics: These mechanical changes create new behavioral patterns: - Players become more strategic about when to play 2s - Information about opponents’ final cards changes decision-making - The turn order becomes more flexible and reactive\nAesthetics: The emotional experience shifts dramatically: - Increased tension when approaching the end of the game - More strategic depth and player agency - Greater social interaction and “gotcha” moments",
     "crumbs": [
-      "Week 4: MDA Framework",
-      "The MDA Framework"
+      "Week 04",
+      "Mda Framework"
     ]
   },
   {
@@ -413,8 +413,8 @@
     "section": "Team Competition Variant",
     "text": "Team Competition Variant\nConsider how changing the win condition transforms the game entirely:\n\nModified Rules for Team Play\n\nEvery table plays Bartok with the enhanced rules\nFirst table to finish wins (not individual players)\nCumulative Draw Two rule applies\nOut of Turn Play allowed\nLast Card Revealed to all players\nNo Table Talk permitted\n\n\n\nMDA Analysis of Team Competition\nThis seemingly simple change to the win condition cascades through all three levels:\nMechanics: The victory condition shifts from individual to collective success.\nDynamics: Player behavior changes dramatically as cooperation becomes essential, yet communication is restricted.\nAesthetics: The emotional experience transforms from competitive individualism to collaborative tension under pressure.",
     "crumbs": [
-      "Week 4: MDA Framework",
-      "The MDA Framework"
+      "Week 04",
+      "Mda Framework"
     ]
   },
   {
@@ -424,8 +424,8 @@
     "section": "Games as Software",
     "text": "Games as Software\nThe MDA framework helps us understand games as interactive systems, similar to software applications. Just as software has different layers of functionality, games have interconnected layers that work together to create the user experience.\n\n\n\n\n\n\nNote\n\n\n\nThis systematic approach allows designers to “fail fast” - quickly identify when mechanical changes don’t produce the intended aesthetic outcomes and iterate accordingly.",
     "crumbs": [
-      "Week 4: MDA Framework",
-      "The MDA Framework"
+      "Week 04",
+      "Mda Framework"
     ]
   },
   {
@@ -435,8 +435,8 @@
     "section": "Fiction and Aesthetics in Abstract Games",
     "text": "Fiction and Aesthetics in Abstract Games\nAn interesting question emerges when analyzing abstract games like Bartok: Does Bartok even have a fiction? Could it?\nWhile Bartok is mechanically abstract, it still generates aesthetic experiences through: - Social dynamics between players - Tension around hidden information - The satisfaction of strategic play - The excitement of close finishes\nThis demonstrates that aesthetics in games aren’t limited to narrative or thematic content - they can emerge from pure mechanical interaction.",
     "crumbs": [
-      "Week 4: MDA Framework",
-      "The MDA Framework"
+      "Week 04",
+      "Mda Framework"
     ]
   },
   {
@@ -446,8 +446,8 @@
     "section": "Summary",
     "text": "Summary\nThe MDA Framework provides game designers with essential tools for understanding and creating meaningful play experiences:\n\nMDA creates a shared vocabulary for discussing how games work, bridging the gap between mechanical implementation and player experience.\nThe framework reveals the asymmetry between designer and player perspectives, highlighting why playtesting and iteration are crucial to successful game design.\nMechanical changes cascade through dynamics to aesthetics, meaning small rule modifications can dramatically alter the player experience.\nEven abstract games generate aesthetic experiences through the interaction of systems and social dynamics, not just through narrative content.\nUnderstanding these relationships enables rapid prototyping and iteration, allowing designers to fail fast and refine their designs more effectively.",
     "crumbs": [
-      "Week 4: MDA Framework",
-      "The MDA Framework"
+      "Week 04",
+      "Mda Framework"
     ]
   },
   {
@@ -457,8 +457,8 @@
     "section": "",
     "text": "Social issues in game design represent a critical area of consideration for modern game developers. As games become increasingly influential in society and culture, designers must understand their responsibility to create experiences that are both engaging and socially conscious.\n\n\n\n\n\n\nNote\n\n\n\nThis lesson explores the intersection of game design and social responsibility, examining how designers can create meaningful experiences while being mindful of their impact on players and society.",
     "crumbs": [
-      "Week 8: Prototyping and Implementation",
-      "Social Issues for Game Designers"
+      "Week 08",
+      "Social Issues"
     ]
   },
   {
@@ -468,8 +468,8 @@
     "section": "",
     "text": "Social issues in game design represent a critical area of consideration for modern game developers. As games become increasingly influential in society and culture, designers must understand their responsibility to create experiences that are both engaging and socially conscious.\n\n\n\n\n\n\nNote\n\n\n\nThis lesson explores the intersection of game design and social responsibility, examining how designers can create meaningful experiences while being mindful of their impact on players and society.",
     "crumbs": [
-      "Week 8: Prototyping and Implementation",
-      "Social Issues for Game Designers"
+      "Week 08",
+      "Social Issues"
     ]
   },
   {
@@ -479,8 +479,8 @@
     "section": "The Role of Technology in Game Design",
     "text": "The Role of Technology in Game Design\n\nNetwork-based Systems\nModern game design increasingly relies on network-based systems and computing technologies. These systems enable:\n\nMultiplayer experiences and social interaction\nReal-time communication between players\nPersistent online worlds and communities\nCross-platform connectivity and accessibility\n\n\n\n\n\n\n\nTip\n\n\n\nUnderstanding the technological foundations of networked gaming is essential for addressing social issues that arise in online gaming environments.\n\n\n\n\nComputing Infrastructure\nThe computing infrastructure that supports modern games plays a crucial role in shaping social interactions within gaming spaces. Designers must consider:\n\nServer architecture and community management\nData privacy and player information security\nAccessibility features for diverse player populations\nScalability for growing gaming communities",
     "crumbs": [
-      "Week 8: Prototyping and Implementation",
-      "Social Issues for Game Designers"
+      "Week 08",
+      "Social Issues"
     ]
   },
   {
@@ -490,8 +490,8 @@
     "section": "Social Responsibility in Game Design",
     "text": "Social Responsibility in Game Design\n\nCommunity Building\nGame designers have the opportunity and responsibility to foster positive communities through:\n\nInclusive design practices\nClear community guidelines and moderation tools\nFeatures that encourage positive social interaction\nSystems that discourage toxic behavior\n\n\n\nEthical Considerations\nWhen designing games, developers must consider various ethical dimensions:\n\nThe psychological impact of game mechanics on players\nRepresentation and diversity in game content\nFair monetization practices\nProtection of vulnerable player populations\n\n\n\n\n\n\n\nWarning\n\n\n\nGame designers must balance commercial interests with social responsibility to create experiences that benefit both players and society as a whole.",
     "crumbs": [
-      "Week 8: Prototyping and Implementation",
-      "Social Issues for Game Designers"
+      "Week 08",
+      "Social Issues"
     ]
   },
   {
@@ -501,8 +501,8 @@
     "section": "Emerging Technologies and Social Impact",
     "text": "Emerging Technologies and Social Impact\n\nNetwork Technologies\nThe evolution of network technologies continues to shape how players interact and form communities within games. Key considerations include:\n\nThe role of emerging technologies in facilitating or hindering social connection\nHow technological choices can impact player behavior and community dynamics\nThe importance of designing systems that promote positive social outcomes",
     "crumbs": [
-      "Week 8: Prototyping and Implementation",
-      "Social Issues for Game Designers"
+      "Week 08",
+      "Social Issues"
     ]
   },
   {
@@ -512,8 +512,8 @@
     "section": "Summary",
     "text": "Summary\nKey takeaways from this lesson on social issues for game designers:\n\nGame designers have a significant responsibility to consider the social impact of their creations on players and communities\nNetwork-based technologies and computing infrastructure play crucial roles in shaping social interactions within games\nEthical considerations must be integrated into the design process from the beginning, not added as an afterthought\nUnderstanding emerging technologies is essential for creating positive social experiences in gaming environments\nBalancing commercial success with social responsibility is a key challenge for modern game designers",
     "crumbs": [
-      "Week 8: Prototyping and Implementation",
-      "Social Issues for Game Designers"
+      "Week 08",
+      "Social Issues"
     ]
   },
   {
@@ -523,7 +523,7 @@
     "section": "",
     "text": "Game design documentation is a critical component of the game development process. Proper documentation serves as a blueprint for your game, helping communicate ideas clearly to team members, stakeholders, and future developers who may work on the project.\n\n\n\n\n\n\nNote\n\n\n\nThis lesson appears to be part of a larger course series on game design fundamentals. The source materials provided were limited, so this lesson will cover general principles of game design documentation.",
     "crumbs": [
-      "Week 6: Documenting and Testing Game Designs",
+      "Week 06",
       "Documenting Game Design"
     ]
   },
@@ -534,7 +534,7 @@
     "section": "",
     "text": "Game design documentation is a critical component of the game development process. Proper documentation serves as a blueprint for your game, helping communicate ideas clearly to team members, stakeholders, and future developers who may work on the project.\n\n\n\n\n\n\nNote\n\n\n\nThis lesson appears to be part of a larger course series on game design fundamentals. The source materials provided were limited, so this lesson will cover general principles of game design documentation.",
     "crumbs": [
-      "Week 6: Documenting and Testing Game Designs",
+      "Week 06",
       "Documenting Game Design"
     ]
   },
@@ -545,7 +545,7 @@
     "section": "The Importance of Game Design Documentation",
     "text": "The Importance of Game Design Documentation\nGame design documentation serves multiple purposes in the development process:\n\nCommunication Tool: Helps convey complex game mechanics and systems to programmers, artists, and other team members\nReference Guide: Provides a central repository of information about game rules, features, and specifications\nProject Management: Assists in tracking progress, features, and changes throughout development\nQuality Assurance: Ensures consistency in implementation and helps identify potential issues early",
     "crumbs": [
-      "Week 6: Documenting and Testing Game Designs",
+      "Week 06",
       "Documenting Game Design"
     ]
   },
@@ -556,7 +556,7 @@
     "section": "Types of Game Design Documents",
     "text": "Types of Game Design Documents\n\nGame Design Document (GDD)\nThe Game Design Document is the primary document that outlines the entire game concept. It typically includes:\n\nGame overview and vision\nCore gameplay mechanics\nTarget audience\nArt style and visual direction\nTechnical requirements\nMarketing considerations\n\n\n\nTechnical Design Document\nThis document focuses on the technical implementation details:\n\nSystem architecture\nProgramming specifications\nPerformance requirements\nPlatform considerations\n\n\n\nArt Bible\nA comprehensive guide for visual consistency:\n\nArt style guidelines\nCharacter designs\nEnvironment concepts\nUI/UX specifications\n\n\n\n\n\n\n\nTip\n\n\n\nKeep your documentation living and breathing. Regular updates ensure that your documents remain useful throughout the development process rather than becoming outdated artifacts.",
     "crumbs": [
-      "Week 6: Documenting and Testing Game Designs",
+      "Week 06",
       "Documenting Game Design"
     ]
   },
@@ -567,7 +567,7 @@
     "section": "Best Practices for Documentation",
     "text": "Best Practices for Documentation\n\nClarity and Accessibility\n\nUse clear, concise language\nInclude visual aids such as diagrams, flowcharts, and mockups\nOrganize information logically with proper headings and sections\nMake documents easily searchable and navigable\n\n\n\nVersion Control\n\nImplement a versioning system for your documents\nTrack changes and updates\nMaintain archives of previous versions\nClearly communicate changes to team members\n\n\n\nCollaboration\n\nEnsure documents are accessible to all relevant team members\nEstablish review processes for major changes\nEncourage feedback and input from different disciplines\nUse collaborative tools that support real-time editing\n\n\n\n\n\n\n\nWarning\n\n\n\nAvoid over-documentation. While thorough documentation is important, excessive detail can make documents unwieldy and difficult to maintain. Focus on the information that is most critical for development success.",
     "crumbs": [
-      "Week 6: Documenting and Testing Game Designs",
+      "Week 06",
       "Documenting Game Design"
     ]
   },
@@ -578,7 +578,7 @@
     "section": "Tools for Game Design Documentation",
     "text": "Tools for Game Design Documentation\n\nTraditional Tools\n\nWord processors (Microsoft Word, Google Docs)\nPresentation software (PowerPoint, Keynote)\nSpreadsheet applications for data organization\n\n\n\nSpecialized Tools\n\nWiki platforms for collaborative documentation\nProject management tools with documentation features\nVersion control systems for document management\nVisual design tools for creating diagrams and mockups",
     "crumbs": [
-      "Week 6: Documenting and Testing Game Designs",
+      "Week 06",
       "Documenting Game Design"
     ]
   },
@@ -589,7 +589,7 @@
     "section": "Maintaining Documentation Throughout Development",
     "text": "Maintaining Documentation Throughout Development\nGame design is an iterative process, and documentation must evolve accordingly:\n\nInitial Planning: Create comprehensive initial documentation\nPrototyping: Update documents based on early testing and feedback\nProduction: Maintain regular updates as features are implemented\nTesting: Document bugs, issues, and solutions\nPost-Launch: Create maintenance documentation for ongoing support\n\n\n\n\n\n\n\nTip\n\n\n\nSchedule regular documentation review sessions with your team to ensure accuracy and completeness. This practice helps catch discrepancies between the documented design and the actual implementation.",
     "crumbs": [
-      "Week 6: Documenting and Testing Game Designs",
+      "Week 06",
       "Documenting Game Design"
     ]
   },
@@ -600,7 +600,7 @@
     "section": "Summary",
     "text": "Summary\nEffective game design documentation is essential for successful game development. Key takeaways include:\n\nDocumentation serves as a critical communication tool between team members and stakeholders\nDifferent types of documents serve different purposes in the development process\nClear, accessible, and regularly updated documentation is more valuable than overly detailed or static documents\nThe right tools and processes can significantly improve documentation quality and maintenance\nDocumentation should evolve throughout the development process to remain relevant and useful",
     "crumbs": [
-      "Week 6: Documenting and Testing Game Designs",
+      "Week 06",
       "Documenting Game Design"
     ]
   },
@@ -611,8 +611,8 @@
     "section": "",
     "text": "Design is fundamentally about finding solutions to problems. However, designers often find themselves reinventing the wheel, struggling with questions like: How were things done before? Why were certain design decisions made? How can we effectively reuse proven solutions?\nThe challenge lies in codifying design knowledge. While an effective and flexible design is difficult to get “right” the first time, experienced designers consistently create good designs. New designers are often overwhelmed by the vast array of design options available, while experienced designers seem to possess knowledge that inexperienced ones lack.\n\n\n\n\n\n\nNote\n\n\n\nExpert designers typically don’t solve every problem from first principles. Instead, they reuse solutions that have worked for them in the past. When they discover a good solution, they use it repeatedly. This accumulated experience is what makes them experts, and these experiences can be recorded as design patterns.\n\n\n\n\nThe concept of patterns extends across creative disciplines. Compelling visual design requires practice and experience, naturally involving the study and critique of others’ work. As Pablo Picasso famously said, “Good artists borrow (from other artists), but great artists steal!”\nSimilarly, novelists and playwrights rarely design their plots from scratch. They follow established patterns like “Tragically Flawed Hero” (seen in Macbeth and Hamlet) or “The Romantic Novel” (found in countless romance novels). Even game players in chess, Go, and basketball rely on recognized patterns in their gameplay.",
     "crumbs": [
-      "Week 5: Design Patterns and Analysis Tools",
-      "Design Patterns in Game Design"
+      "Week 05",
+      "Design Patterns"
     ]
   },
   {
@@ -622,8 +622,8 @@
     "section": "",
     "text": "Design is fundamentally about finding solutions to problems. However, designers often find themselves reinventing the wheel, struggling with questions like: How were things done before? Why were certain design decisions made? How can we effectively reuse proven solutions?\nThe challenge lies in codifying design knowledge. While an effective and flexible design is difficult to get “right” the first time, experienced designers consistently create good designs. New designers are often overwhelmed by the vast array of design options available, while experienced designers seem to possess knowledge that inexperienced ones lack.\n\n\n\n\n\n\nNote\n\n\n\nExpert designers typically don’t solve every problem from first principles. Instead, they reuse solutions that have worked for them in the past. When they discover a good solution, they use it repeatedly. This accumulated experience is what makes them experts, and these experiences can be recorded as design patterns.\n\n\n\n\nThe concept of patterns extends across creative disciplines. Compelling visual design requires practice and experience, naturally involving the study and critique of others’ work. As Pablo Picasso famously said, “Good artists borrow (from other artists), but great artists steal!”\nSimilarly, novelists and playwrights rarely design their plots from scratch. They follow established patterns like “Tragically Flawed Hero” (seen in Macbeth and Hamlet) or “The Romantic Novel” (found in countless romance novels). Even game players in chess, Go, and basketball rely on recognized patterns in their gameplay.",
     "crumbs": [
-      "Week 5: Design Patterns and Analysis Tools",
-      "Design Patterns in Game Design"
+      "Week 05",
+      "Design Patterns"
     ]
   },
   {
@@ -633,8 +633,8 @@
     "section": "Understanding Design Patterns",
     "text": "Understanding Design Patterns\n\nDesign Patterns vs. Design Guidelines\nDesign patterns differ from design guidelines in several key ways:\n\nGuidelines can be either abstract or concrete, but abstract guidelines usually don’t suggest how to solve problems, while concrete guidelines are often too specific to a particular interface\nGuidelines typically assume absolute validity, while patterns emphasize effectiveness within particular contexts\nGuidelines are useful for describing requirements, while patterns serve as tools for translating requirements into specific solutions\n\n\n\nPatterns vs. Idioms and Vocabulary\nNot every design idea qualifies as a pattern. Ideas that are too specific (like programming language-specific solutions) are called idioms, not patterns. Conversely, patterns cannot be too general—it must be clear how the pattern should be applied in context.\nIf techniques appear so frequently in a domain that everyone knows and uses them in almost any situation, they’re likely part of the basic vocabulary rather than patterns. In game design, this includes fundamental concepts like Player, Stage, Enemy, and Gun shots.\n\n\n\n\n\n\nTip\n\n\n\nWhat are Design Patterns?\n“Each pattern describes a problem which occurs over and over again in our environment, and then describes the core of the solution to that problem, in such a way that you can use this solution a million times over, without ever doing it the same way twice.” - Alexander et al. 1977",
     "crumbs": [
-      "Week 5: Design Patterns and Analysis Tools",
-      "Design Patterns in Game Design"
+      "Week 05",
+      "Design Patterns"
     ]
   },
   {
@@ -644,8 +644,8 @@
     "section": "Historical Foundation",
     "text": "Historical Foundation\n\nChristopher Alexander’s Architectural Patterns\nDesign patterns originated with architect Christopher Alexander, who developed patterns for architecture in works like “The Timeless Way of Building” and “A Pattern Language.” His approach covered towns, buildings, and construction at multiple levels, creating networks that formed a comprehensive language.\nA classic example from Alexander’s work is the Courtyards Which Live pattern:\nProblem: Courtyards in modern buildings often end up unused, full of gravel and abstract sculptures. They fail in three ways: 1. Too little ambiguity between indoors and outdoors 2. Not enough doors into the courtyard 3. Too enclosed\nSolution: Place every courtyard with a view to some larger open space, ensure at least two or three doors open into it, create natural paths across the courtyard, and include a roofed veranda or porch that connects the inside with the courtyard.\n\n\nPattern Format\nDesign patterns typically follow a structured format:\n\nPattern Name\nContext\nForces\nProblem Statement\n\nSolution (including solution sketch)\nOther Patterns to Consider\n\n\n\n\n\n\n\nNote\n\n\n\nPattern Languages\nAlexander emphasized that patterns should be organized into logical structures forming pattern languages. These are more than just collections of patterns—they’re sets of patterns that fill out a design space and complement each other, with forces in each pattern explaining relationships with other patterns.",
     "crumbs": [
-      "Week 5: Design Patterns and Analysis Tools",
-      "Design Patterns in Game Design"
+      "Week 05",
+      "Design Patterns"
     ]
   },
   {
@@ -655,8 +655,8 @@
     "section": "Design Patterns in UI Design",
     "text": "Design Patterns in UI Design\nUser interface design has adopted and adapted the pattern approach to address common interaction problems.\n\nExtras on Demand Pattern\nDescription: Show the most important content up front, but hide the rest. Let the user reach it via a single, simple gesture.\nContext: There’s too much content to show on a page, but some isn’t very important. You want a simpler UI but need to accommodate all content somewhere.\nSolution: Ruthlessly prune the UI down to its most commonly used, most important items. Put the remainder into their own page or section, hidden by default. On the simplified UI, place a clearly marked button or link to the remainder, such as “More Options.” Many UIs use arrows, chevrons “»,” or ellipses “…” as part of the link or button label.\n\n\nBreadcrumbs\nDescription: On each page in a hierarchy, show a map of all parent pages, up to the main page.\nContext: The application or site has a straightforward tree structure without much interlinking. Users navigate up and down this tree via direct navigation or searching.\nSolution: Near the top of the page, place a line of text or icons indicating the current hierarchy level. Start with the top level, then show subsequent levels to the right, down to the current page. Between levels, use a graphic or text character (usually a right-pointing arrow) to indicate movement from one level to the next.\n\n\nResponsive Enabling\nContext: The UI walks users through complex steps, perhaps because they are computer-naive or the task is rarely done. You want to keep the whole interface on one page while maintaining stability.\nSolution: Most actions start disabled—only actions relevant to the user’s first step are available. As users make choices and perform actions, more disabled items become enabled and brought into play.\n\n\nStructured Format\nDescription: Your interface requests specific text input from users, formatted in a particular way.\nContext: The input format expected by your program is familiar and well-defined, with no expectation that users need to deviate from the expected format (e.g., credit card information, telephone numbers, license strings).\nSolution: Design text fields that reflect the required format. Keep fields short as clues to input length. Once users have typed all required characters in the first field, automatically move input focus to the next field while allowing them to return and re-edit previous fields.",
     "crumbs": [
-      "Week 5: Design Patterns and Analysis Tools",
-      "Design Patterns in Game Design"
+      "Week 05",
+      "Design Patterns"
     ]
   },
   {
@@ -666,8 +666,8 @@
     "section": "Design Patterns in Game Design",
     "text": "Design Patterns in Game Design\nGame design patterns address recurring problems in game mechanics, player experience, and system design. Björk (2004) categorized game patterns into several areas:\n\nGame elements\nResource and resource management\n\nInformation, communication and presentation\nActions and event patterns\nNarrative structures, predictability and immersion patterns\nSocial interaction\nGoals and goal structures\nGame sessions\nGame mastery and balancing\nMeta games, replay ability and learning curves\n\n\nProducer-Consumer\nDescription: The production of resources by one game element that is consumed by another game element or game event.\nConsequences: - Creates concrete, very common gameplay mechanics - Can regulate game flow - Can increase game complexity, especially when players control producer-consumer elements - Can increase the feeling of player control\nImplementation Considerations: - Production regulation: Based on time/turns, player actions, game events, element configuration, or continuous vs. one-time production - Consumption regulation: Similar factors as production - Often uses related patterns like Factory and Accumulator\n\n\nHigh Score Lists\nDescription: Give players the chance to rank themselves against other players who have previously played the game.\n\n\n\n\n\n\nWarning\n\n\n\nConsider the context and solution for High Score Lists in your own projects. How might this pattern affect player motivation and engagement?\n\n\n\n\nPower-Ups\nDescription: Power-Ups are game elements that give time-limited advantages to players who pick them up.\nThis pattern creates temporary asymmetry in player capabilities, encouraging exploration and risk-taking while maintaining overall game balance through time limitations.\n\n\nPaper-Rock-Scissors\nDescription: Sets of three or more actions form cycles where every action has an advantage over another action.\nContext: Game designers want to avoid a general winning strategy in gameplay, encouraging players to observe opponent activities while promoting tension and randomness.\nSolution: Create cyclical relationships between game actions where each action counters another, preventing any single dominant strategy.\nWhich of the following best describes the purpose of the Paper-Rock-Scissors pattern in game design?\n\n[ ] To make games more complicated\n[x] To prevent any single winning strategy and encourage observation of opponents  \n[ ] To reduce the number of possible player actions\n[ ] To make games easier for new players",
     "crumbs": [
-      "Week 5: Design Patterns and Analysis Tools",
-      "Design Patterns in Game Design"
+      "Week 05",
+      "Design Patterns"
     ]
   },
   {
@@ -677,8 +677,8 @@
     "section": "Design Patterns in Learning",
     "text": "Design Patterns in Learning\nEducational design patterns help structure effective learning experiences. Examples include:\n\nEarly Bird: Getting students engaged from the beginning\nSpiral: Revisiting concepts with increasing complexity\nMulti Pronged Attack: Using multiple approaches to teach difficult concepts\nGroups Work: Leveraging collaborative learning\nActive Student: Encouraging student participation\nBuddy System: Peer learning and support\nWrite Over Read: Emphasizing active creation over passive consumption\n\n\n\n\n\n\n\nTip\n\n\n\nThese learning patterns can be applied to game design education and even integrated into game mechanics to create educational games.",
     "crumbs": [
-      "Week 5: Design Patterns and Analysis Tools",
-      "Design Patterns in Game Design"
+      "Week 05",
+      "Design Patterns"
     ]
   },
   {
@@ -688,8 +688,8 @@
     "section": "Critical Considerations",
     "text": "Critical Considerations\n\nAre Design Patterns a Silver Bullet?\nDesign patterns are not magic solutions that automatically create effective interfaces or games. They should be viewed as:\n\nA common design vocabulary for communication among team members\nA documentation and learning aid for understanding design decisions\nAn adjunct to existing methods rather than a replacement\nA target for refining existing designs through proven solutions\n\n\n\nDo Design Patterns Destroy Creativity?\nThis is a common concern, but patterns actually enhance creativity by: - Providing a foundation of proven solutions - Freeing designers to focus on novel aspects rather than reinventing basics - Offering a shared language for discussing and iterating on designs - Enabling more sophisticated designs through pattern combinations",
     "crumbs": [
-      "Week 5: Design Patterns and Analysis Tools",
-      "Design Patterns in Game Design"
+      "Week 05",
+      "Design Patterns"
     ]
   },
   {
@@ -699,8 +699,8 @@
     "section": "Summary",
     "text": "Summary\nDesign patterns provide a powerful framework for capturing and sharing design knowledge across disciplines. Key takeaways include:\n\nPatterns codify expertise: They capture the knowledge that experienced designers use to create effective solutions repeatedly\nContext is crucial: Patterns emphasize effectiveness within particular situations rather than universal applicability\n\nPatterns form languages: The most powerful applications come from combining multiple patterns that complement and reinforce each other\nCross-disciplinary value: Patterns originated in architecture, evolved through software engineering, and now enhance UI and game design\nBalance structure and creativity: While patterns provide proven frameworks, the best designs creatively combine multiple patterns to create something greater than the sum of their parts\n\nAs Alexander noted, “The best designs will use many design patterns that dovetail and intertwine to produce a greater whole.” The goal is not just to string patterns together, but to overlap them in the same space, creating designs that are dense with meaning and profound in their impact.",
     "crumbs": [
-      "Week 5: Design Patterns and Analysis Tools",
-      "Design Patterns in Game Design"
+      "Week 05",
+      "Design Patterns"
     ]
   },
   {
@@ -710,8 +710,8 @@
     "section": "",
     "text": "Most games begin with a single idea that serves as the foundation for the entire design process. This initial concept can revolve around several different elements, each offering unique opportunities for creative development.\nThe idea might center on a character - think of how James Bond has inspired countless action games, providing both a recognizable protagonist and a specific tone for gameplay. Alternatively, the concept could focus on gameplay or genre - perhaps starting with the desire to create a first-person shooter (FPS) or real-time strategy (RTS) game and building from there.\nSports provide another fertile ground for game ideas, whether it’s traditional sports like football, soccer, and hockey, or more extreme activities like snowboarding. The appeal lies in translating the excitement and mechanics of physical competition into interactive digital experiences.\nSome games emerge from story, quest, or goal concepts - a time-travel adventure, for instance, immediately suggests both narrative possibilities and unique gameplay mechanics. Finally, new technology can spark innovative game ideas, such as motion capture systems that bring realistic sports movements to life, or augmented and virtual reality platforms that create entirely new forms of interaction.\n\n\n\n\n\n\nNote\n\n\n\nIdeas can be original, adaptations of older concepts, or hybrids that combine existing elements in new ways. Games like The Sims and Civilization demonstrate how innovative thinking can create entirely new genres or revolutionize existing ones.\n\n\n\n\n\nInspiration for game ideas can come from numerous sources, each offering different advantages for the creative process. Consider making a game based on a story you’ve written - this approach ensures you have deep understanding of the narrative elements and thematic content.\nMixing existing ideas from other games can lead to innovative combinations. The key is to identify what works well in different games and find creative ways to blend those elements into something new and compelling.\nDon’t overlook other media as sources of inspiration. Books, movies, comics, and other forms of entertainment contain countless stories, characters, and concepts that can be adapted into interactive experiences. The trick is to steal ideas (but not copyrighted characters) and transform them through the unique possibilities that interactivity provides.\nMarket research through surveys and focus groups can reveal what audiences want, though this approach requires balancing popular demand with creative vision. Sometimes the most successful games are those that give players something they didn’t know they wanted.\nAnother productive approach is taking current ideas and improving upon them through better technology, enhanced graphics, improved sound design, more sophisticated AI, stronger storytelling, or different environmental settings. Finally, don’t underestimate the power of brainstorming - generate lots of ideas without immediately judging their merit.\n\n\n\nLegendary game designer Sid Meier offers valuable insight into the ideation process: “I find it dangerous to think in terms of genre first and then topic. Like, say, ‘I want to do a real-time strategy game. OK. What’s a cool topic?’ I think, for me at least, it’s more interesting to say, ‘I want to do a game about railroads. OK, now what’s the most interesting way to bring that to life? Is it in real-time, or is it turn-based, or is it first-person…’”\nThis approach prioritizes the core subject matter over mechanical constraints, allowing the content to drive the design decisions rather than forcing content into predetermined mechanical frameworks.\n\n\n\nGame designer Ernest Adams proposes that computer games exist to fulfill dreams. His approach suggests starting with a dream, then considering what it would be like to actually live that experience.\nConsider the dream of being someone else entirely - the President of Ireland, a movie director, an Olympic skater, a rock climber, the world’s greatest programmer, or even a college lecturer. Each of these roles carries specific activities, challenges, and rewards that can be translated into gameplay mechanics.\n\n\n\n\n\n\nTip\n\n\n\nWhile not all games fit the dream-fulfillment model, it provides a powerful framework for thinking about what players really want to experience through your game.",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Game Design Process and Ideation"
+      "Week 02",
+      "Game Design Process"
     ]
   },
   {
@@ -721,8 +721,8 @@
     "section": "",
     "text": "Most games begin with a single idea that serves as the foundation for the entire design process. This initial concept can revolve around several different elements, each offering unique opportunities for creative development.\nThe idea might center on a character - think of how James Bond has inspired countless action games, providing both a recognizable protagonist and a specific tone for gameplay. Alternatively, the concept could focus on gameplay or genre - perhaps starting with the desire to create a first-person shooter (FPS) or real-time strategy (RTS) game and building from there.\nSports provide another fertile ground for game ideas, whether it’s traditional sports like football, soccer, and hockey, or more extreme activities like snowboarding. The appeal lies in translating the excitement and mechanics of physical competition into interactive digital experiences.\nSome games emerge from story, quest, or goal concepts - a time-travel adventure, for instance, immediately suggests both narrative possibilities and unique gameplay mechanics. Finally, new technology can spark innovative game ideas, such as motion capture systems that bring realistic sports movements to life, or augmented and virtual reality platforms that create entirely new forms of interaction.\n\n\n\n\n\n\nNote\n\n\n\nIdeas can be original, adaptations of older concepts, or hybrids that combine existing elements in new ways. Games like The Sims and Civilization demonstrate how innovative thinking can create entirely new genres or revolutionize existing ones.\n\n\n\n\n\nInspiration for game ideas can come from numerous sources, each offering different advantages for the creative process. Consider making a game based on a story you’ve written - this approach ensures you have deep understanding of the narrative elements and thematic content.\nMixing existing ideas from other games can lead to innovative combinations. The key is to identify what works well in different games and find creative ways to blend those elements into something new and compelling.\nDon’t overlook other media as sources of inspiration. Books, movies, comics, and other forms of entertainment contain countless stories, characters, and concepts that can be adapted into interactive experiences. The trick is to steal ideas (but not copyrighted characters) and transform them through the unique possibilities that interactivity provides.\nMarket research through surveys and focus groups can reveal what audiences want, though this approach requires balancing popular demand with creative vision. Sometimes the most successful games are those that give players something they didn’t know they wanted.\nAnother productive approach is taking current ideas and improving upon them through better technology, enhanced graphics, improved sound design, more sophisticated AI, stronger storytelling, or different environmental settings. Finally, don’t underestimate the power of brainstorming - generate lots of ideas without immediately judging their merit.\n\n\n\nLegendary game designer Sid Meier offers valuable insight into the ideation process: “I find it dangerous to think in terms of genre first and then topic. Like, say, ‘I want to do a real-time strategy game. OK. What’s a cool topic?’ I think, for me at least, it’s more interesting to say, ‘I want to do a game about railroads. OK, now what’s the most interesting way to bring that to life? Is it in real-time, or is it turn-based, or is it first-person…’”\nThis approach prioritizes the core subject matter over mechanical constraints, allowing the content to drive the design decisions rather than forcing content into predetermined mechanical frameworks.\n\n\n\nGame designer Ernest Adams proposes that computer games exist to fulfill dreams. His approach suggests starting with a dream, then considering what it would be like to actually live that experience.\nConsider the dream of being someone else entirely - the President of Ireland, a movie director, an Olympic skater, a rock climber, the world’s greatest programmer, or even a college lecturer. Each of these roles carries specific activities, challenges, and rewards that can be translated into gameplay mechanics.\n\n\n\n\n\n\nTip\n\n\n\nWhile not all games fit the dream-fulfillment model, it provides a powerful framework for thinking about what players really want to experience through your game.",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Game Design Process and Ideation"
+      "Week 02",
+      "Game Design Process"
     ]
   },
   {
@@ -732,8 +732,8 @@
     "section": "Interactivity",
     "text": "Interactivity\n\nThe Central Question\nInteractivity is the fundamental reason computer games exist as a medium. Before getting caught up in story elements, character development, artwork, or other aspects of game creation, you must ask and answer one crucial question: “What is the player going to do?”\nThis question takes precedence over all others because it defines the core experience that separates games from passive entertainment. Until you understand what actions the player will take and how they will interact with your game world, other design elements remain secondary.\n\n\nThe Inside-Out Approach\nRather than beginning at the traditional “beginning” of a story or experience, effective game design often benefits from an inside-out approach. Start with the primary gameplay mode - the core interactive experience - and work outward from there.\nDefine this primary mode thoroughly before moving on to other game modes. Consider the player’s role, the interaction model, the perspective, the setting, the challenges the player will confront, the mechanics that create those challenges, and the actions the player takes to overcome them.\n\n\n\n\n\n\nWarning\n\n\n\nCreate supporting material later in the design process. It’s always easier to fix story elements, user interface issues, and other peripheral concerns than to fix an uninteresting or unplayable core game.\n\n\n\n\nDefining the Player’s Role\nWho is the player trying to be within your game world? This question proves critical for representational and realistic games, where the player needs a clear understanding of their identity and capabilities.\nSome games feature multiple roles within a single experience. A football game might allow players to act as manager, coach, or individual player, each with distinct responsibilities and interaction methods. If you can’t describe the player’s role clearly and concisely, it will likely confuse players and undermine their engagement with the game.\n\n\nInteraction Models\nGames typically employ one of two primary interaction models. The avatar model involves a single character or object that represents the player, with the player’s actions limited to what can be accomplished from the avatar’s current location.\nThe omnipresence model (though not necessarily omniscience) allows players to act in many or all places within the game world simultaneously. Chess provides an obvious example - players can move any of their pieces regardless of location. However, omnipresence doesn’t guarantee omniscience; concepts like “fog of war” can limit player knowledge while maintaining broad interactive capability.",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Game Design Process and Ideation"
+      "Week 02",
+      "Game Design Process"
     ]
   },
   {
@@ -743,8 +743,8 @@
     "section": "Perspectives",
     "text": "Perspectives\n\nVisual Viewpoints\nDifferent perspectives create fundamentally different player experiences and affect how players understand and interact with the game world.\nFirst-person perspective places the camera at the character’s eye level, creating intimate connection with the game world. Classic examples include Doom and Quake, where this viewpoint enhances the immediacy and tension of combat encounters.\nThird-person perspective shows the player character from behind or to the side, allowing players to see their character’s actions and reactions. Tomb Raider exemplifies this approach, letting players watch Lara Croft’s athletic movements while maintaining spatial awareness of her surroundings.\nSide-scrolling perspective presents the game world from a side view, often emphasizing platforming and linear progression. Sonic games demonstrate how this perspective can create fast-paced, momentum-based gameplay.\nAerial perspectives include both isometric and top-down views. Isometric perspective, used in games like Starcraft and various football games, provides three-dimensional spatial information while maintaining clarity for strategic decision-making. Top-down perspective, seen in games like Total Annihilation, offers complete overhead views ideal for tactical planning.\nContext-sensitive perspective changes based on gameplay needs. Resident Evil pioneered this approach, switching between different camera angles to enhance specific moments or gameplay requirements.\n\n\nMultiple Game Modes and Perspectives\nMany games successfully combine different perspectives across multiple modes, each optimized for specific types of gameplay.\nDungeon Keeper demonstrates this approach with three distinct modes: management mode uses isometric, omnipresent perspective for strategic planning; map mode employs top-down, omnipresent view with limited actions; and possession mode switches to first-person, avatar-based tactical gameplay.\nSoccer games often feature management mode (like FIFA’s career mode), play-calling with isometric, omnipresent strategic view, and play execution using either isometric or first-person avatar-based tactical control.\nSid Meier’s Pirates! showcases multiple perspectives across different game areas: sea and island exploration using isometric, omnipresent strategic view; city navigation with top-down, omnipresent perspective for stealth gameplay; and dueling or dancing with first-person, avatar-based tactical interaction.\n\n\nGame Structure and Mode Relationships\nThe relationship between different game modes requires careful consideration. Some modes are entered by explicit player choice, while others occur as part of natural progression through the game.\nState diagrams can help visualize these relationships, showing how players move between different modes and what triggers these transitions. This structural planning ensures smooth flow between different types of gameplay and prevents jarring shifts that might break player immersion.",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Game Design Process and Ideation"
+      "Week 02",
+      "Game Design Process"
     ]
   },
   {
@@ -754,8 +754,8 @@
     "section": "Game Dimensions",
     "text": "Game Dimensions\n\nPhysical Dimension\nThe physical dimension encompasses several critical aspects of game world design. Dimensionality determines whether your game operates in 2D, 3D, or even 4D (multiple 3D spaces). Remember that 3D should be chosen for design reasons, not simply because it seems more impressive or modern.\nScale addresses how big the game world is and how objects relate to each other in size. This affects everything from navigation to combat to resource management. Boundaries define what happens at the edge of the game world - do players hit invisible walls, loop around to the other side, or face some other limitation? Consider whether boundary solutions maintain or break suspension of disbelief.\n\n\nTemporal Dimension\nTime can play various roles in game design, from purely cosmetic to mechanically crucial. Ask whether time is meaningful in your game - does the passage of time itself change gameplay conditions or create new challenges?\nGames can operate in real-time or turn-based systems, each creating different strategic and tactical considerations. Variable time allows certain activities to progress at different speeds - The Sims demonstrates this by speeding up time while characters sleep. Anomalous time lets different elements progress at different rates simultaneously.\nConsider whether players can adjust time flow, a feature commonly seen in flight simulators and real-time strategy games that allows players to pause, slow down, or speed up action as needed.\n\n\nEnvironmental Dimension\nThe environmental dimension includes both cultural context and physical surroundings. Cultural context, in the anthropological sense, encompasses beliefs, attitudes, values, social systems, family structures, key ceremonies and rituals, and historical background.\nPhysical surroundings cover landscape, flora, fauna, weather patterns, and human-made elements including buildings, vehicles, clothing, weaponry, furniture, and art. The level of detail determines what players can see, touch, and interact with, affecting both immersion and gameplay complexity.\nGraphical style involves both the style of the setting itself and your specific approach to depicting that setting, influencing the game’s aesthetic appeal and emotional impact.\n\n\nEmotional Dimension\nConsider both the emotions of characters within the game world and the emotions you hope to inspire in players. Most games limit emotional range to basic responses like excitement (“Yahoo!”) and frustration (“Damn!”), but more sophisticated emotional experiences are possible.\nExplore deeper emotions such as jealousy, grief, anger, greed, and disdain. The key question becomes: how will your game design inspire these emotions through gameplay mechanics, narrative elements, and player choices?\n\n\nEthical Dimension\nEthics in games differ fundamentally from passive entertainment. In passive media, viewers bring their own ethical systems to the work. In interactive entertainment, designers provide players with an ethical framework through game rules and victory conditions.\nThe victory condition defines what is “good” within the game world. Players must conform to the designer’s embedded morality to succeed, making ethical considerations a crucial design responsibility.\n\n\n\n\n\n\nWarning\n\n\n\nGames encounter ethical problems when they are highly representational of the real world AND their ethics are highly disconnected from real-world moral systems. It’s generally acceptable to kill aliens and robots realistically, or to kill people unrealistically, but realistic depictions of morally questionable real-world actions can create controversy.",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Game Design Process and Ideation"
+      "Week 02",
+      "Game Design Process"
     ]
   },
   {
@@ -765,8 +765,8 @@
     "section": "Game Challenges",
     "text": "Game Challenges\n\nPhysical Challenges\nPhysical challenges test player dexterity and reaction capabilities. Speed and reaction time challenges, often called “twitch games,” require rapid responses to changing situations. Accuracy and precision challenges appear in activities like steering vehicles or aiming weapons, testing fine motor control.\nTiming and rhythm challenges, exemplified by dance games, require players to match specific temporal patterns. Learning special moves, common in fighting games, combines memorization with execution skills. Races create urgency by requiring players to achieve objectives before opponents do.\n\n\nLogical Challenges\nLogical challenges, or puzzles, should be based on underlying principles rather than trial-and-error experimentation. When players must guess randomly to progress, it typically indicates poor puzzle design. Effective logical challenges give players sufficient information to reason through solutions systematically.\n\n\nExploration Challenges\nExploration challenges encourage players to investigate and navigate game spaces. These might include locked doors and traps that require specific items or knowledge to overcome, mazes and illogical spaces that test spatial reasoning and memory, and teleporters that create non-intuitive navigation puzzles.\n\n\nConflict Challenges\nConflict encompasses strategy, tactics, and logistics. While logistics (such as feeding armies) is rarely emphasized in games, it offers rich design possibilities. Common conflict challenges include survival and reduction of enemy forces, defending vulnerable items or units, and stealth scenarios that require avoiding rather than confronting opposition.\n\n\nEconomic Challenges\nEconomic challenges focus on resource management and system optimization. These include accumulating wealth or points, efficient manufacturing processes, achieving balance or stability in complex systems, and caring for living things within those systems.\n\n\nConceptual Challenges\nConceptual challenges require understanding something new through deduction, observation, and interpretation. Detective games exemplify this category by requiring players to piece together information and draw logical conclusions to solve mysteries.",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Game Design Process and Ideation"
+      "Week 02",
+      "Game Design Process"
     ]
   },
   {
@@ -776,8 +776,8 @@
     "section": "Game Mechanics",
     "text": "Game Mechanics\n\nCore Mechanics and Internal Economy\nCore mechanics define the internal economy that drives most games forward. Understanding this economy is crucial for creating balanced, engaging gameplay.\nConsider a first-person shooter’s economy: resources include ammunition and hit points; sources include ammunition clips and medical kits; drains include firing weapons and taking damage from enemies. Game balance emerges from carefully adjusting the relationships between these elements.\n\n\nBalance Principles\nBalance involves making games fair (all players have equal chances of winning at the start), appropriately challenging (neither too hard nor too easy), and winnable (games must be able to conclude).\nSymmetry provides the simplest approach to balance - games like Chess and most deathmatch games give all players identical starting conditions and capabilities. Asymmetry proves harder to balance but often creates more interesting gameplay, as seen in strategy games like Starcraft and Warcraft where different factions have unique strengths and weaknesses.\n\n\nPositive Feedback\nPositive feedback occurs when achievements make subsequent achievements easier. Taking an opponent’s piece in Chess provides advantage, and if you could use captured pieces as your own, the advantage would compound further.\nWithout positive feedback, games risk stalemate conditions where no player can gain decisive advantage. However, positive feedback must be controlled to prevent leading players from gaining insurmountable advantages.\nExamples include getting ahead in a race and becoming more likely to collect power-ups, acquiring property in Monopoly that generates more income, or the way churned water in swimming races slows down trailing competitors.\n\n\nControlling Positive Feedback\nSeveral mechanisms can control excessive positive feedback:\nIntroduce negative feedback - achievements that make subsequent achievements harder. Examples include gold that slows down movement or upkeep costs that increase with expansion.\nIncrease the impact of chance - if chance elements are fair, they help and hurt all players equally over time.\nDefine victory in non-numeric ways - Chess wins through checkmate rather than piece count, preventing simple accumulation strategies.\nIncrease difficulty as feedback kicks in - role-playing games demonstrate this by scaling enemy strength to match player advancement.\n\n\nNegative Feedback Examples\nNegative feedback can include getting lost more easily when ahead in races, wind drag in bicycle and car racing, or games like shuffleboard where having pieces in scoring position makes it easier for opponents to score against you.\n\n\nBalance Progression Patterns\nEffective game balance creates an ideal progression where players maintain hope of victory while still experiencing meaningful challenge. Avoid both positive feedback that creates runaway victories and negative feedback so strong that leads constantly change hands without player agency mattering.\nWhich approach does Sid Meier recommend for game ideation?\n\n[ ] Start with a genre, then find a topic\n[x] Start with a topic, then determine the best way to bring it to life\n[ ] Always begin with cutting-edge technology\n[ ] Focus on market research first\n\nWhat is the most important question to ask when designing game interactivity?\n\n[x] \"What is the player going to do?\"\n[ ] \"What story do we want to tell?\"\n[ ] \"What graphics engine should we use?\"\n[ ] \"Who is our target audience?\"\n\nWhich represents positive feedback in game design?\n\n[ ] Gold that slows you down when collected\n[x] Taking an opponent's chess piece\n[ ] Increasing difficulty as players advance\n[ ] Random events that affect all players equally",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Game Design Process and Ideation"
+      "Week 02",
+      "Game Design Process"
     ]
   },
   {
@@ -787,8 +787,8 @@
     "section": "Game Worlds",
     "text": "Game Worlds\n\nMental Spaces and Rules\nThe game world exists as a mental space - a conceptual area that is explicitly not-the-real-world. This space operates under its own rules and is entered through the conscious choice to play. Players understand and accept that different logic, physics, and social rules may apply within this space.\nThe game setting represents the fictional component of this world, contributing to entertainment through immersion and fantasy. However, the relationship between setting and gameplay importance varies significantly. The more absorbing the core gameplay, the less crucial elaborate setting becomes - Chess and Quake players often ignore thematic elements entirely, focusing instead on mechanical interactions.\n\n\nCommunicating Ideas:",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Game Design Process and Ideation"
+      "Week 02",
+      "Game Design Process"
     ]
   },
   {
@@ -798,8 +798,8 @@
     "section": "",
     "text": "Games function as sophisticated engines designed to create meaningful experiences for players. Understanding how this process works is fundamental to effective game design. The journey from mechanical rules to emotional experiences follows a specific chain that every game designer must master.\n\n\n\n\n\n\nNote\n\n\n\nThe core concept: Games don’t directly author experiences like other media. Instead, they create systems that generate experiences through player interaction.",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Games as Engines of Experience"
+      "Week 02",
+      "Games As Engines"
     ]
   },
   {
@@ -809,8 +809,8 @@
     "section": "",
     "text": "Games function as sophisticated engines designed to create meaningful experiences for players. Understanding how this process works is fundamental to effective game design. The journey from mechanical rules to emotional experiences follows a specific chain that every game designer must master.\n\n\n\n\n\n\nNote\n\n\n\nThe core concept: Games don’t directly author experiences like other media. Instead, they create systems that generate experiences through player interaction.",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Games as Engines of Experience"
+      "Week 02",
+      "Games As Engines"
     ]
   },
   {
@@ -820,8 +820,8 @@
     "section": "Mechanics",
     "text": "Mechanics\nGames are composed of mechanics, which define how the game works. A mechanic is simply a rule about how a game functions and behaves.\nExamples of mechanics include: - “The A button makes Mario jump” - “Characters walk at one meter per second” - “Pawns capture diagonally” - “Players alternate taking turns”\nIn board games, mechanics are documented in the rulebook. In video games, they’re implemented through computer code. Regardless of the medium, mechanics define the game’s fundamental behavior and establish the boundaries of what’s possible within the game world.\n\n\n\n\n\n\nTip\n\n\n\nThink of mechanics as the DNA of your game - they contain all the instructions for how your game will behave, even in situations you haven’t explicitly considered.",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Games as Engines of Experience"
+      "Week 02",
+      "Games As Engines"
     ]
   },
   {
@@ -831,8 +831,8 @@
     "section": "Events",
     "text": "Events\nDuring play, mechanics and players interact to generate events. An event is something that happens during gameplay, emerging from the interaction between the game’s rules and player actions.\nExamples of events: - Mario hits a wall and bounces back - The pawn captures the rook - The ball goes in the net, so the other team gets a point\n\nThe Difference from Other Media\nIn nearly every other entertainment medium, events are authored directly. A screenwriter, novelist, or choreographer decides every action, motion, and line of dialogue in their work. Their final product is a long series of predefined events.\nGames are fundamentally different. Instead of authoring events directly, game designers create mechanics. Those mechanics then generate events during play, creating unique experiences that can vary each time the game is played.",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Games as Engines of Experience"
+      "Week 02",
+      "Games As Engines"
     ]
   },
   {
@@ -842,8 +842,8 @@
     "section": "The Primacy of Emotion",
     "text": "The Primacy of Emotion\nTo be meaningful, an event must provoke emotion. The valuable emotions of play can be very subtle - often subtle enough that players don’t consciously detect them. Developing the ability to detect and understand these subtle emotions is a crucial designer skill.\n\n\n\n\n\n\nWarning\n\n\n\nThe emotions of play are not limited to “fun.” Games can and should evoke a wide range of emotional responses to create rich, meaningful experiences.",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Games as Engines of Experience"
+      "Week 02",
+      "Games As Engines"
     ]
   },
   {
@@ -853,8 +853,8 @@
     "section": "Emotion and Change",
     "text": "Emotion and Change\nTo provoke emotion, an event must change some human value. A human value is anything that is important to people that can shift through multiple states. These values can exist in positive, neutral, or negative states.\nExamples of human values include: - [life/death] - [victory/defeat] - [friend/stranger/enemy] - [wealth/poverty] - [low status/high status] - [together/alone] - [love/ambivalence/hatred] - [freedom/slavery] - [danger/safety] - [knowledge/ignorance] - [skilled/unskilled] - [healthy/sick] - [follower/leader]\n\nEmotional Relevance\nWhat’s emotionally relevant about an event is not the event itself, but the changes in human values implied by that event. The more important the human value and the more it changes, the greater the emotional response.\nKey principles: - Emotions don’t just appear in response to change - they also appear in anticipation of change - A reveal of information is emotionally equivalent to change - The magnitude of emotional response correlates with the importance and degree of change in human values",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Games as Engines of Experience"
+      "Week 02",
+      "Games As Engines"
     ]
   },
   {
@@ -864,8 +864,8 @@
     "section": "Emotional Black Box",
     "text": "Emotional Black Box\nWe can’t directly perceive the logic behind our emotional triggers. This psychological reality has important implications for game design and player experience.\n\nEmotional Misattribution\nA classic research study by psychology researcher Arthur Aron in 1973 demonstrated the psychological disconnect between emotions and their perceived causes. In the study, men had no natural ability to track the true cause of their emotions, so they attributed them to the most salient thing in view.\nThis kind of emotional misattribution happens constantly. We think we feel a certain way for one reason, when the actual reason is completely different.\n\n\n\n\n\n\nWarning\n\n\n\n\nEmotional misattribution can be used to manipulate players\nEmotional misattribution makes it difficult to understand how games truly affect us\nAs designers, we must be aware of these psychological mechanisms",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Games as Engines of Experience"
+      "Week 02",
+      "Games As Engines"
     ]
   },
   {
@@ -875,8 +875,8 @@
     "section": "Basic Emotional Triggers",
     "text": "Basic Emotional Triggers\n\nEmotion Through Learning (Epiphany)\nLearning creates powerful emotional responses in players: - The more important a lesson is to a human value, the more we’re driven to learn it - The skills we’re instinctively driven to master are those that helped our ancestors survive and reproduce - The more intricate and non-obvious a lesson is, the greater the pleasure of learning it - The best learning moments happen when we compress a large amount of learning into a short time through insight\n\n\nInsight\nPlayers feel insight when they receive a new piece of information that causes many old pieces of information to suddenly make sense. This occurs when we get the final piece of a logical puzzle that clicks into place and reveals the shape of the whole.\n\n\nOther Emotional Triggers\nGames can evoke emotions through various mechanisms: - Character arcs - Challenge - Social interaction - Acquisition - Music - Beauty - Environment - Primal threats",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Games as Engines of Experience"
+      "Week 02",
+      "Games As Engines"
     ]
   },
   {
@@ -886,8 +886,8 @@
     "section": "Emotional Variation",
     "text": "Emotional Variation\nAny single emotion becomes tiresome if sustained too long. To retain power and freshness, an experience must transform over time.\n\nPacing\nThe classic pacing curve follows a specific pattern: 1. Hook - Initial engagement 2. Rising Action - Building tension 3. Build-up - Increasing intensity\n4. Climax - Peak emotional moment 5. Denouement - Resolution and closure\n\n\nIntensity and Valence\nIn addition to varying intensity through pacing changes, designers can vary the flavor of emotions. Psychologists call this aspect emotional valence.\nExamples: - High intensity, different valences: fury, grief, and terror - Low intensity, different valences: satisfaction, relief, and depression\nEmotions can be plotted on a graph with valence and intensity as the two axes, allowing designers to map and plan emotional journeys.",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Games as Engines of Experience"
+      "Week 02",
+      "Games As Engines"
     ]
   },
   {
@@ -897,8 +897,8 @@
     "section": "Flow",
     "text": "Flow\nFlow is a psychological concept particularly applicable to game design, originally described by Hungarian psychologist Mihály Csíkszentmihályi.\nFlow is defined as “a state of concentration so focused that it amounts to total absorption in an activity.”\nAchieving flow states in players is often a key goal in game design, as it represents the ideal balance between challenge and skill that keeps players engaged and immersed.",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Games as Engines of Experience"
+      "Week 02",
+      "Games As Engines"
     ]
   },
   {
@@ -908,8 +908,8 @@
     "section": "The Complete Chain",
     "text": "The Complete Chain\nThe experience represents the final link in the conceptual chain by which games work:\n\nMechanics: Designers create a set of mechanics and wrap them in representative fiction\nEvents: During play, those mechanics interact to produce sequences of events\nEmotions: Those events trigger responses in the player’s unconscious mind, provoking emotions\nExperience: Those emotions merge together into an integrated experience that can last minutes, days, or years\n\n\n\n\n\n\n\nTip\n\n\n\nUnderstanding this chain is crucial for game designers. By carefully crafting mechanics, you can influence the entire emotional journey and create the experiences you intend for your players.",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Games as Engines of Experience"
+      "Week 02",
+      "Games As Engines"
     ]
   },
   {
@@ -919,8 +919,8 @@
     "section": "Summary",
     "text": "Summary\nKey takeaways from understanding games as engines of experience:\n\nGames are systems, not stories: Unlike other media that author events directly, games create mechanics that generate events through player interaction.\nEmotion drives meaning: Events only become meaningful when they provoke emotional responses by changing human values that matter to players.\nWe don’t understand our own emotions: Emotional misattribution means players (and designers) often misunderstand what truly causes emotional responses in games.\nVariety prevents emotional fatigue: Successful games vary both the intensity and valence of emotions over time, following classic pacing principles.\nThe design chain matters: Understanding the progression from mechanics → events → emotions → experience allows designers to create more intentional and powerful player experiences.",
     "crumbs": [
-      "Week 2: Games as Engines of Experience",
-      "Games as Engines of Experience"
+      "Week 02",
+      "Games As Engines"
     ]
   },
   {
@@ -930,8 +930,8 @@
     "section": "",
     "text": "Jesse Schell introduced the concept of design lenses in his influential book The Art of Game Design: A Book of Lenses. These lenses represent unique perspectives that allow game designers to analyze and evaluate different aspects of game design from multiple angles.\n\n\n\n\n\n\nNoteWhat are Schell’s Lenses?\n\n\n\nSchell’s lenses are analytical tools that provide designers with structured ways to examine their games. Each lens focuses on a specific aspect of the game design process, offering targeted questions and considerations to improve the overall design quality.\n\n\nThe primary purpose of these lenses is to help improve game design by providing designers with systematic approaches to examine various elements of their games. Rather than relying on intuition alone, lenses offer concrete frameworks for evaluation and improvement.",
     "crumbs": [
-      "Week 5: Design Patterns and Analysis Tools",
-      "Schell's Game Design Lenses"
+      "Week 05",
+      "Schells Lenses"
     ]
   },
   {
@@ -941,8 +941,8 @@
     "section": "",
     "text": "Jesse Schell introduced the concept of design lenses in his influential book The Art of Game Design: A Book of Lenses. These lenses represent unique perspectives that allow game designers to analyze and evaluate different aspects of game design from multiple angles.\n\n\n\n\n\n\nNoteWhat are Schell’s Lenses?\n\n\n\nSchell’s lenses are analytical tools that provide designers with structured ways to examine their games. Each lens focuses on a specific aspect of the game design process, offering targeted questions and considerations to improve the overall design quality.\n\n\nThe primary purpose of these lenses is to help improve game design by providing designers with systematic approaches to examine various elements of their games. Rather than relying on intuition alone, lenses offer concrete frameworks for evaluation and improvement.",
     "crumbs": [
-      "Week 5: Design Patterns and Analysis Tools",
-      "Schell's Game Design Lenses"
+      "Week 05",
+      "Schells Lenses"
     ]
   },
   {
@@ -952,8 +952,8 @@
     "section": "The Importance of Game Design Lenses",
     "text": "The Importance of Game Design Lenses\nGame design is inherently a complex process. Games involve multiple systems and elements working together harmoniously, requiring designers to balance gameplay mechanics, visual and audio aesthetics, narrative elements, and overall player experience. This complexity makes it challenging to evaluate all aspects simultaneously.\nLenses serve as powerful analytical tools that provide several key benefits:\nEnhanced Creativity: By exploring multiple perspectives through different lenses, designers can generate innovative ideas they might not have considered otherwise. Each lens opens up new ways of thinking about the same design problem.\nImproved Quality: Detailed analysis through various lenses ensures a well-rounded and polished final product. By systematically examining different aspects of the game, designers can identify potential issues and areas for improvement before they become problems.\nFoster Collaboration: Different lenses cater to different areas of expertise within a development team. This allows team members from various disciplines—programmers, artists, writers, and designers—to contribute meaningfully to the design process using frameworks they understand.",
     "crumbs": [
-      "Week 5: Design Patterns and Analysis Tools",
-      "Schell's Game Design Lenses"
+      "Week 05",
+      "Schells Lenses"
     ]
   },
   {
@@ -963,8 +963,8 @@
     "section": "Key Categories of Lenses",
     "text": "Key Categories of Lenses\nSchell’s lenses can be organized into several key categories, each addressing different aspects of game design:\n\nNarrative Design\nThis category focuses on storytelling within games, emphasizing the craft of compelling storylines and ensuring narrative coherence that promotes player immersion. The narrative structure in games like “The Witcher 3” exemplifies how strong storytelling can enhance the overall game experience by creating meaningful context for player actions.\n\n\nPlayer Psychology\nUnderstanding player motivations and behaviors is crucial for creating engaging experiences. These lenses help designers create psychological engagement strategies that resonate with different types of players. The strategic use of achievements to encourage player progression demonstrates how understanding player psychology can drive continued engagement.\n\n\nGame Mechanics\nThis category involves the rules and systems that govern gameplay. Designers must balance mechanics to ensure they provide both fun and appropriate challenge while encouraging strategic thinking. The combat system in “Dark Souls” serves as an excellent example of how well-designed mechanics can create memorable and challenging gameplay experiences.\n\n\nVisual and Audio Design\nThese lenses concern how visuals and sound contribute to the overall game experience. Maintaining consistency in design elements is crucial for enhancing immersion and creating a cohesive aesthetic vision. The distinctive visual style of “Journey” demonstrates how unified visual design can create powerful emotional experiences.\n\n\nSocial and Emotional Engagement\nThis category focuses on fostering community connections and evoking emotions through various game elements. Creating shared experiences and encouraging meaningful player interaction are key components. The multiplayer modes in “Among Us” showcase how social mechanics can create compelling group dynamics and emotional moments.\n\n\nTechnical and System Design\nThese lenses examine the technical foundations of game development, ensuring smooth performance and innovative use of available technology. The procedural generation system in “Minecraft” exemplifies how technical innovation can create entirely new types of gameplay experiences.",
     "crumbs": [
-      "Week 5: Design Patterns and Analysis Tools",
-      "Schell's Game Design Lenses"
+      "Week 05",
+      "Schells Lenses"
     ]
   },
   {
@@ -974,8 +974,8 @@
     "section": "Exploring Specific Lenses",
     "text": "Exploring Specific Lenses\nLet’s examine several specific lenses in detail to understand how they work in practice:\n\nThe Lens of the Player\nThis fundamental lens focuses on understanding the player’s desires, motivations, and actions. The key question designers should ask is: “What does the player want from the game?”\n\n\n\n\n\n\nTipPurpose of the Player Lens\n\n\n\nThe goal is to design games that appeal to the core emotions and needs of players. By understanding what drives player behavior, designers can create more engaging and satisfying experiences.\n\n\n\n\nThe Lens of the Game\nThis lens involves analyzing the game itself as a complete system. Designers should consider: “What is the game trying to accomplish?” This perspective helps ensure that the game’s mechanics, narrative, and other elements align with its overall goals and vision.\n\n\nThe Lens of the Story\nStorytelling and narrative elements are examined through this lens. The central question is: “How does the story unfold and engage players?” The purpose is to craft compelling narratives that enhance the overall game experience rather than feeling disconnected from gameplay.\n\n\nThe Lens of Emotion\nThis lens focuses on the emotional impact of the game experience. Designers should ask: “What emotions does the game evoke?” The goal is to create specific moments that engage players emotionally and forge meaningful connections between the player and the game world.\n\n\nThe Lens of Fun\nEnsuring that the game is genuinely fun and enjoyable is the focus of this lens. The key question is: “How is the game fun?” Since fun is a central goal in most games, this lens ensures that enjoyment remains front and center throughout the design process.\n\n\nThe Lens of Challenge\nThis lens addresses the critical balance between difficulty and player ability. Designers must consider: “How does the game challenge the player?” The purpose is to strike the optimal balance between experiences that are too easy (boring) and too difficult (frustrating) to keep players appropriately engaged.\n\n\nThe Lens of Motivation\nUnderstanding what drives players to continue playing is essential for long-term engagement. The question to consider is: “What motivates the player to keep playing?” This lens helps keep players invested in the game through rewarding experiences and meaningful goals.\n\n\nThe Lens of Meaning\nThis lens provides purpose and deeper significance within the game experience. Designers should ask: “What is the deeper meaning of the game?” Games that offer players a genuine sense of purpose and meaning tend to be more memorable and impactful.\n\n\nThe Lens of Reward\nThis lens explores how rewards and feedback systems are structured throughout the game. The key question is: “How are players rewarded for their actions?” Proper incentive structures are crucial for driving sustained player engagement.\n\n\nThe Lens of the Mechanics\nUnderstanding the core gameplay mechanics and their interactions is the focus here. Designers should consider: “How do the game mechanics support the overall experience?” The goal is to ensure that mechanics contribute meaningfully to the intended gameplay experience.\n\n\nThe Lens of Time\nTime as a resource and factor in gameplay is examined through this lens. The question to address is: “How does time affect the player’s experience?” This involves considering the pacing of the game and how temporal elements influence player decision-making and engagement.\n\n\n\n\n\n\nWarningUsing Multiple Lenses\n\n\n\nRemember that no single lens offers a complete picture of your game design. The power comes from applying multiple lenses systematically to gain comprehensive insights into different aspects of your game.",
     "crumbs": [
-      "Week 5: Design Patterns and Analysis Tools",
-      "Schell's Game Design Lenses"
+      "Week 05",
+      "Schells Lenses"
     ]
   },
   {
@@ -985,8 +985,8 @@
     "section": "Summary",
     "text": "Summary\nSchell’s design lenses serve as invaluable tools for game designers, providing structured approaches to critically examine all aspects of game design. Here are the key takeaways:\n\nSystematic Analysis: Lenses provide frameworks for systematically analyzing different aspects of game design, moving beyond intuition to structured evaluation.\nMultiple Perspectives: By using different lenses, designers gain unique insights that enhance the overall player experience and reveal aspects that might otherwise be overlooked.\nComprehensive Design: Each lens focuses on a specific element—from player psychology to technical implementation—ensuring that all aspects of the game receive appropriate attention.\nCollaborative Tool: Different lenses cater to various areas of expertise, making them valuable for team-based development and cross-disciplinary collaboration.\nIterative Improvement: Every lens serves as a tool for continuous improvement throughout the design process, helping designers refine and enhance their games systematically.\n\nThe fundamental principle is that while no single lens offers a complete picture of your game design, together they shape a more thoughtful, comprehensive, and successful design approach.",
     "crumbs": [
-      "Week 5: Design Patterns and Analysis Tools",
-      "Schell's Game Design Lenses"
+      "Week 05",
+      "Schells Lenses"
     ]
   },
   {
@@ -996,8 +996,8 @@
     "section": "",
     "text": "This lesson introduces fundamental concepts in gameplay design within the broader context of ludology and game play studies. We’ll explore the theoretical foundations that inform how games are structured and how players interact with game systems.\n\n\n\n\n\n\nNote\n\n\n\nThis lesson is part of the IDM1 course series focusing on ludology and gameplay, with particular attention to network-based gaming systems.",
     "crumbs": [
-      "Week 6: Documenting and Testing Game Designs",
-      "Gameplay Design Principles"
+      "Week 06",
+      "Gameplay Design"
     ]
   },
   {
@@ -1007,8 +1007,8 @@
     "section": "",
     "text": "This lesson introduces fundamental concepts in gameplay design within the broader context of ludology and game play studies. We’ll explore the theoretical foundations that inform how games are structured and how players interact with game systems.\n\n\n\n\n\n\nNote\n\n\n\nThis lesson is part of the IDM1 course series focusing on ludology and gameplay, with particular attention to network-based gaming systems.",
     "crumbs": [
-      "Week 6: Documenting and Testing Game Designs",
-      "Gameplay Design Principles"
+      "Week 06",
+      "Gameplay Design"
     ]
   },
   {
@@ -1018,8 +1018,8 @@
     "section": "Understanding Ludology",
     "text": "Understanding Ludology\n\nDefinition and Scope\nLudology represents the academic study of games and play, focusing on the formal structures and mechanics that define gameplay experiences. Unlike narratology (which emphasizes story), ludology prioritizes the interactive and systemic elements that make games unique as a medium.\n\n\nCore Components of Game Play\nWhen designing gameplay, several fundamental principles guide the development process:\n\nSystem Interaction: How players engage with game mechanics\nRule Structures: The formal constraints that define possible actions\nPlayer Agency: The meaningful choices available to players\nFeedback Loops: How the game responds to player actions",
     "crumbs": [
-      "Week 6: Documenting and Testing Game Designs",
-      "Gameplay Design Principles"
+      "Week 06",
+      "Gameplay Design"
     ]
   },
   {
@@ -1029,8 +1029,8 @@
     "section": "Technologies for Network-based Systems",
     "text": "Technologies for Network-based Systems\n\nNetwork Gaming Considerations\nModern gameplay design must account for networked environments where multiple players interact simultaneously. Key considerations include:\n\nLatency Management: Designing gameplay that remains engaging despite network delays\nSynchronization: Ensuring consistent game states across multiple clients\nScalability: Supporting varying numbers of concurrent players\n\n\n\n\n\n\n\nTip\n\n\n\nNetwork-based game design requires careful consideration of how gameplay mechanics will function in distributed systems where not all players share the same immediate game state.\n\n\n\n\nComputing Infrastructure\nThe underlying computing systems that support networked gameplay influence design decisions:\n\nServer architecture choices\nClient-server vs. peer-to-peer models\n\nData transmission optimization\nReal-time processing requirements",
     "crumbs": [
-      "Week 6: Documenting and Testing Game Designs",
-      "Gameplay Design Principles"
+      "Week 06",
+      "Gameplay Design"
     ]
   },
   {
@@ -1040,8 +1040,8 @@
     "section": "Gameplay Design Framework",
     "text": "Gameplay Design Framework\n\nIterative Design Process\nEffective gameplay design follows an iterative approach:\n\nConceptualization: Initial gameplay concept development\nPrototyping: Rapid creation of testable game mechanics\nTesting: Player feedback and system evaluation\nRefinement: Adjustment based on testing results\n\n\n\n\n\n\n\nWarning\n\n\n\nGameplay design is inherently iterative. Initial concepts rarely survive unchanged through the development process, so designers must remain flexible and responsive to player feedback.\n\n\n\n\nBalancing Mechanics\nCreating engaging gameplay requires careful balance between:\n\nChallenge and accessibility\nComplexity and clarity\nIndividual skill and collaborative elements\nImmediate feedback and long-term progression",
     "crumbs": [
-      "Week 6: Documenting and Testing Game Designs",
-      "Gameplay Design Principles"
+      "Week 06",
+      "Gameplay Design"
     ]
   },
   {
@@ -1051,8 +1051,8 @@
     "section": "Summary",
     "text": "Summary\nThis introduction to gameplay design principles establishes several key concepts:\n\nLudology provides a framework for understanding games as interactive systems rather than narrative experiences\nNetwork-based gaming introduces technical constraints that directly impact gameplay design decisions\nEffective gameplay design requires iterative development with continuous testing and refinement\nBalancing competing design goals is essential for creating engaging player experiences\nModern game design must consider both theoretical foundations and practical technical implementation challenges",
     "crumbs": [
-      "Week 6: Documenting and Testing Game Designs",
-      "Gameplay Design Principles"
+      "Week 06",
+      "Gameplay Design"
     ]
   },
   {
@@ -1062,8 +1062,8 @@
     "section": "",
     "text": "This lesson explores the fundamental approaches to game prototyping, covering both non-digital and digital methods that game designers use to test and refine their ideas before full development.\n\n\n\n\n\n\nNote\n\n\n\nThe source materials for this lesson appear to be incomplete or corrupted. The following content represents the standard curriculum structure for non-digital and digital prototyping in game design education.",
     "crumbs": [
-      "Week 8: Prototyping and Implementation",
-      "Non-digital and Digital Prototyping"
+      "Week 08",
+      "Prototyping"
     ]
   },
   {
@@ -1073,8 +1073,8 @@
     "section": "",
     "text": "This lesson explores the fundamental approaches to game prototyping, covering both non-digital and digital methods that game designers use to test and refine their ideas before full development.\n\n\n\n\n\n\nNote\n\n\n\nThe source materials for this lesson appear to be incomplete or corrupted. The following content represents the standard curriculum structure for non-digital and digital prototyping in game design education.",
     "crumbs": [
-      "Week 8: Prototyping and Implementation",
-      "Non-digital and Digital Prototyping"
+      "Week 08",
+      "Prototyping"
     ]
   },
   {
@@ -1084,8 +1084,8 @@
     "section": "Non-digital Prototyping Methods",
     "text": "Non-digital Prototyping Methods\n\nPaper Prototypes\nNon-digital prototyping allows designers to quickly test core gameplay mechanics without the overhead of programming or digital asset creation. Paper prototypes are particularly effective for:\n\nTesting game rules and mechanics\nBalancing gameplay elements\nExploring player interactions\nValidating core game loops\n\n\n\nPhysical Components\nGame designers often use physical materials to prototype:\n\nCardboard for game boards and tokens\nDice for randomization mechanics\nCards for character abilities or events\nSticky notes for rapid iteration\n\n\n\n\n\n\n\nTip\n\n\n\nNon-digital prototypes can be created and modified in minutes, making them ideal for rapid iteration during the early design phase.",
     "crumbs": [
-      "Week 8: Prototyping and Implementation",
-      "Non-digital and Digital Prototyping"
+      "Week 08",
+      "Prototyping"
     ]
   },
   {
@@ -1095,8 +1095,8 @@
     "section": "Digital Prototyping Approaches",
     "text": "Digital Prototyping Approaches\n\nSoftware Tools\nDigital prototyping tools enable designers to create interactive prototypes that more closely resemble the final game experience:\n\nGame engines (Unity, Unreal Engine)\nRapid prototyping frameworks\nVisual scripting tools\nWeb-based prototyping platforms\n\n\n\nBenefits of Digital Prototyping\nDigital prototypes offer several advantages:\n\nInteractive feedback systems\nAudio and visual elements\nNetwork connectivity testing\nPerformance evaluation\n\n\n\n\n\n\n\nWarning\n\n\n\nDigital prototypes require more technical expertise and time investment compared to non-digital approaches.",
     "crumbs": [
-      "Week 8: Prototyping and Implementation",
-      "Non-digital and Digital Prototyping"
+      "Week 08",
+      "Prototyping"
     ]
   },
   {
@@ -1106,8 +1106,8 @@
     "section": "Choosing the Right Prototyping Method",
     "text": "Choosing the Right Prototyping Method\n\nEarly Design Phase\nDuring initial concept development, non-digital prototypes are often more effective because they:\n\nAllow for rapid rule changes\nFacilitate group brainstorming\nRequire minimal technical skills\nFocus attention on core mechanics\n\n\n\nLater Development Stages\nAs designs mature, digital prototypes become more valuable for:\n\nTesting technical feasibility\nEvaluating user interface designs\nAssessing performance requirements\nPreparing for playtesting with target audiences",
     "crumbs": [
-      "Week 8: Prototyping and Implementation",
-      "Non-digital and Digital Prototyping"
+      "Week 08",
+      "Prototyping"
     ]
   },
   {
@@ -1117,8 +1117,8 @@
     "section": "Summary",
     "text": "Summary\n\nNon-digital prototyping enables rapid iteration and rule testing without technical barriers\nDigital prototyping provides interactive experiences closer to the final game\nTool selection should match the development phase and specific testing goals\nBoth approaches serve complementary roles in the game design process\nEarly prototyping helps validate core concepts before significant resource investment",
     "crumbs": [
-      "Week 8: Prototyping and Implementation",
-      "Non-digital and Digital Prototyping"
+      "Week 08",
+      "Prototyping"
     ]
   },
   {
@@ -1128,8 +1128,8 @@
     "section": "",
     "text": "Richard Bartle’s framework for understanding player motivations represents one of the most influential contributions to game design theory. Developed from his observations of player behavior in early multi-user dungeons (MUDs), Bartle’s taxonomy provides game designers with a structured approach to understanding what drives different players to engage with games.\n\n\n\n\n\n\nNote\n\n\n\nUnderstanding player motivations is crucial for game designers because it helps them create experiences that resonate with their target audience and design systems that keep players engaged over time.\n\n\nThe framework identifies four distinct player types, each with their own motivations, preferences, and behavioral patterns. By recognizing these different player types, designers can create more inclusive and engaging games that appeal to a broader audience.",
     "crumbs": [
-      "Week 4: MDA Framework",
-      "Bartle's Player Types"
+      "Week 04",
+      "Bartle Player Types"
     ]
   },
   {
@@ -1139,8 +1139,8 @@
     "section": "",
     "text": "Richard Bartle’s framework for understanding player motivations represents one of the most influential contributions to game design theory. Developed from his observations of player behavior in early multi-user dungeons (MUDs), Bartle’s taxonomy provides game designers with a structured approach to understanding what drives different players to engage with games.\n\n\n\n\n\n\nNote\n\n\n\nUnderstanding player motivations is crucial for game designers because it helps them create experiences that resonate with their target audience and design systems that keep players engaged over time.\n\n\nThe framework identifies four distinct player types, each with their own motivations, preferences, and behavioral patterns. By recognizing these different player types, designers can create more inclusive and engaging games that appeal to a broader audience.",
     "crumbs": [
-      "Week 4: MDA Framework",
-      "Bartle's Player Types"
+      "Week 04",
+      "Bartle Player Types"
     ]
   },
   {
@@ -1150,8 +1150,8 @@
     "section": "The Four Player Types",
     "text": "The Four Player Types\nBartle’s framework categorizes players into four distinct types: Achievers, Explorers, Socializers, and Killers. Each type represents a different primary motivation for playing games, though individual players may exhibit characteristics from multiple types.\n\nAchievers\nAchievers are motivated by in-game goals and achievements. These players find satisfaction in:\n\nCollecting rewards and completing tasks\nGaining status and recognition within the game\nProgressing through game systems\nAccumulating points, levels, or other measurable accomplishments\n\nExamples of Achiever behavior: - Leveling up characters to maximum level - Earning trophies and achievements - Completing quest lines and storylines - Collecting rare items or completing sets\n\n\n\n\n\n\nTip\n\n\n\nAchievers often serve as dedicated players who provide stability to a game’s player base, as they tend to invest significant time in pursuing long-term goals.\n\n\n\n\nExplorers\nExplorers are driven by the desire to discover new areas and uncover secrets within the game world. Their primary motivations include:\n\nInvestigating game mechanics and systems\nFinding hidden content and Easter eggs\nUnderstanding how the game world functions\nDiscovering lore and backstory elements\n\nExamples of Explorer behavior: - Thoroughly exploring maps and environments - Uncovering hidden areas and secret passages - Reading in-game books, documents, and lore - Experimenting with game mechanics to understand their limits\n\n\nSocializers\nSocializers are motivated by interacting with other players and building relationships within the game community. They enjoy:\n\nCommunicating with other players\nBuilding friendships and social connections\nParticipating in group activities and events\nContributing to the social fabric of the game world\n\nExamples of Socializer behavior: - Engaging in chat channels and forums - Joining guilds, clans, or other social groups - Participating in social events and gatherings - Helping other players and mentoring newcomers\n\n\n\n\n\n\nNote\n\n\n\nSocializers often serve as the “glue” that holds gaming communities together, creating the social bonds that keep players returning to the game.\n\n\n\n\nKillers\nKillers are motivated by competition and the desire to demonstrate dominance over other players. Their primary drives include:\n\nEngaging in player versus player (PvP) combat\nAsserting power and superiority\nCompeting for rankings and recognition\nTesting their skills against human opponents\n\nExamples of Killer behavior: - Participating in PvP matches and tournaments - Climbing competitive rankings and leaderboards - Engaging in guild wars or faction conflicts - Seeking out challenging opponents to defeat",
     "crumbs": [
-      "Week 4: MDA Framework",
-      "Bartle's Player Types"
+      "Week 04",
+      "Bartle Player Types"
     ]
   },
   {
@@ -1161,8 +1161,8 @@
     "section": "Designing for Different Player Types",
     "text": "Designing for Different Player Types\nUnderstanding Bartle’s player types allows designers to create targeted features and systems that appeal to each group’s motivations.\n\nAchievers in Game Design\nWhen designing for Achievers, focus on:\n\nClear goals and progression systems: Provide well-defined objectives with measurable progress\nReward systems: Implement meaningful rewards for completing tasks and reaching milestones\nAchievement systems: Create comprehensive achievement lists that track player accomplishments\nLeaderboards: Allow Achievers to compare their progress with other players\n\nExamples: Experience point systems, skill trees, completion percentages, trophy collections, and prestige systems.\n\n\nExplorers in Game Design\nTo engage Explorers, include:\n\nRich, detailed worlds: Create expansive environments with depth and complexity\nHidden content: Place Easter eggs, secret areas, and optional discoveries throughout the game\nLore and storytelling: Develop extensive backstories and world-building elements\nEmergent gameplay: Allow systems to interact in unexpected ways\n\nExamples: Open-world games, environmental storytelling, hidden collectibles, and complex interconnected systems.\n\n\nSocializers in Game Design\nFor Socializers, provide:\n\nCommunication tools: Implement robust chat systems, voice communication, and messaging features\nSocial spaces: Create areas specifically designed for player interaction and gathering\nGroup activities: Design content that encourages or requires cooperation\nCommunity features: Support guild systems, friend lists, and social recognition\n\nExamples: Guild halls, multiplayer dungeons, chat channels, and collaborative building systems.\n\n\nKillers in Game Design\nTo satisfy Killers, include:\n\nCompetitive modes: Provide structured PvP environments with clear winners and losers\nRanking systems: Implement skill-based matchmaking and visible rankings\nTournament support: Create formal competitive structures and events\nPower progression: Allow players to demonstrate their superiority through character strength or skill\n\nExamples: Ranked matchmaking, PvP arenas, esports integration, and competitive seasons.",
     "crumbs": [
-      "Week 4: MDA Framework",
-      "Bartle's Player Types"
+      "Week 04",
+      "Bartle Player Types"
     ]
   },
   {
@@ -1172,8 +1172,8 @@
     "section": "Balancing Player Types",
     "text": "Balancing Player Types\nSuccessful game design requires balancing the needs of all player types rather than focusing exclusively on one group. This involves:\n\nDiverse content: Ensuring the game offers activities and systems that appeal to different motivations\nInterconnected systems: Creating mechanics where different player types can interact meaningfully\nFlexible progression: Allowing multiple paths to success and engagement\nCommunity management: Fostering an environment where all player types can coexist\n\n\n\n\n\n\n\nWarning\n\n\n\nFocusing too heavily on one player type can alienate others and limit your game’s potential audience. The most successful games find ways to serve multiple player types simultaneously.\n\n\n\nStrategies for Balance\n\nComplementary design: Create systems where different player types support each other (e.g., Socializers helping Achievers through guilds)\nMultiple progression paths: Offer various ways to advance and succeed in the game\nSeasonal content: Rotate focus between different player types with updates and events\nPlayer choice: Allow players to engage with the aspects of the game that most appeal to them",
     "crumbs": [
-      "Week 4: MDA Framework",
-      "Bartle's Player Types"
+      "Week 04",
+      "Bartle Player Types"
     ]
   },
   {
@@ -1183,8 +1183,8 @@
     "section": "Criticisms and Limitations",
     "text": "Criticisms and Limitations\nWhile Bartle’s framework remains influential, it’s important to acknowledge its limitations:\n\nOversimplification: Real players often exhibit characteristics from multiple types\nCultural bias: The framework was developed primarily from Western gaming culture\nEvolution of gaming: Modern games and player behaviors have evolved since the framework’s creation\nRigid categories: Players may not fit neatly into single categories and may change over time\n\n\n\n\n\n\n\nTip\n\n\n\nUse Bartle’s framework as a starting point for understanding player motivations, but don’t treat it as the definitive word on player psychology. Combine it with other research methods and player feedback.",
     "crumbs": [
-      "Week 4: MDA Framework",
-      "Bartle's Player Types"
+      "Week 04",
+      "Bartle Player Types"
     ]
   },
   {
@@ -1194,8 +1194,8 @@
     "section": "Summary",
     "text": "Summary\nBartle’s Player Types framework provides game designers with a valuable tool for understanding player motivations and creating more engaging experiences. The key takeaways include:\n\nFour distinct player types exist (Achievers, Explorers, Socializers, Killers), each with unique motivations and preferences\nTargeted design approaches can better serve each player type through specific features and systems\nBalance is crucial - successful games cater to multiple player types rather than focusing on just one\nThe framework has limitations and should be used as one tool among many for understanding players\nPlayer types can overlap - individual players may exhibit characteristics from multiple categories and change over time\n\nUnderstanding these player types allows designers to create more inclusive, engaging, and successful games that resonate with diverse audiences and build lasting player communities.",
     "crumbs": [
-      "Week 4: MDA Framework",
-      "Bartle's Player Types"
+      "Week 04",
+      "Bartle Player Types"
     ]
   },
   {
@@ -1225,8 +1225,8 @@
     "section": "",
     "text": "Welcome to IDM2: Ludology and Game Play, an exciting journey into the fundamental concepts that drive game design and player experience. This module will provide you with a comprehensive foundation in ludology—the study of games and gameplay—and equip you with the knowledge needed to understand what makes games engaging, meaningful, and fun.\nThe primary aim of this module is to give learners a solid grounding in the core concepts of ludology and game play. You will develop a deep understanding of what defines a ‘game’ and explore the mechanics and rules that govern different types of games, both in digital and physical formats. This foundational knowledge will serve as the context for creating your own proof of concept proposal for game design.\n\n\n\n\n\n\nTipFocus Areas\n\n\n\nThis module emphasizes the conceptual underpinnings of game design, covering essential areas such as the game design process, game idea generation, defining games, rules and discovery mechanics, storytelling, and both non-digital and digital prototyping.\n\n\nThe course also introduces you to games across different environments—including business, education, and entertainment contexts—and various platforms ranging from traditional board games to modern console, mobile, and web-based experiences.",
     "crumbs": [
-      "Week 1: Introduction and Course Overview",
-      "Course Introduction and Syllabus"
+      "Week 01",
+      "Course Introduction"
     ]
   },
   {
@@ -1236,8 +1236,8 @@
     "section": "",
     "text": "Welcome to IDM2: Ludology and Game Play, an exciting journey into the fundamental concepts that drive game design and player experience. This module will provide you with a comprehensive foundation in ludology—the study of games and gameplay—and equip you with the knowledge needed to understand what makes games engaging, meaningful, and fun.\nThe primary aim of this module is to give learners a solid grounding in the core concepts of ludology and game play. You will develop a deep understanding of what defines a ‘game’ and explore the mechanics and rules that govern different types of games, both in digital and physical formats. This foundational knowledge will serve as the context for creating your own proof of concept proposal for game design.\n\n\n\n\n\n\nTipFocus Areas\n\n\n\nThis module emphasizes the conceptual underpinnings of game design, covering essential areas such as the game design process, game idea generation, defining games, rules and discovery mechanics, storytelling, and both non-digital and digital prototyping.\n\n\nThe course also introduces you to games across different environments—including business, education, and entertainment contexts—and various platforms ranging from traditional board games to modern console, mobile, and web-based experiences.",
     "crumbs": [
-      "Week 1: Introduction and Course Overview",
-      "Course Introduction and Syllabus"
+      "Week 01",
+      "Course Introduction"
     ]
   },
   {
@@ -1247,8 +1247,8 @@
     "section": "Learning Outcomes",
     "text": "Learning Outcomes\nUpon successful completion of this module, you will be able to:\n\nDemonstrate a basic understanding in the principles, processes and elements of game design\nEvaluate and critique games on their principal mechanics and aesthetic appeal\n\nDesign and create proof of concept proposals for new games\nImplement a proof of concept to prototype stage\n\n\n\n\n\n\n\nNotePractical Application\n\n\n\nThese learning outcomes emphasize both theoretical understanding and practical application, ensuring you can both analyze existing games and create new gaming experiences.",
     "crumbs": [
-      "Week 1: Introduction and Course Overview",
-      "Course Introduction and Syllabus"
+      "Week 01",
+      "Course Introduction"
     ]
   },
   {
@@ -1258,8 +1258,8 @@
     "section": "Syllabus",
     "text": "Syllabus\nThe course is structured into two main units that progress from foundational concepts to practical implementation.\n\nUnit 1: Game Design\nThis foundational unit covers the essential theoretical and conceptual elements of game design:\nWhat Are Games - We begin by examining the fundamental question of what constitutes a game, exploring various definitions and characteristics that distinguish games from other forms of media and entertainment.\nThe Game Design Process - You’ll learn about the systematic approach to creating games, understanding the phases and methodologies that successful game designers employ.\nGame Idea Generation - This section focuses on creativity techniques and processes for generating compelling game concepts and mechanics.\nAudience - Understanding your target players is crucial for successful game design. We’ll explore how to identify, analyze, and design for specific player demographics and psychographics.\nStorytelling and Character Design - Games often rely on narrative elements to engage players. This component covers how stories and characters function within interactive environments.\nMechanics, Rules and Rewards - The core systems that drive gameplay will be examined, including how rules create meaningful choices and how reward systems motivate continued play.\nPlanning the Player Experience - You’ll learn to design intentional player journeys and emotional arcs throughout the gaming experience.\nGame Environments - This explores how different contexts and settings influence game design decisions and player expectations.\n\n\nUnit 2: Implementation\nThe second unit shifts focus to the practical aspects of bringing game concepts to life:\nNon-digital and Digital Prototyping - You’ll learn various prototyping methods, from paper prototypes to digital mockups, understanding when and how to use different approaches.\nUser Experience Design - This covers the principles of creating intuitive, engaging interfaces and interaction patterns for games.\nVisual Design - Aesthetic considerations and visual communication principles specific to game environments will be explored.\nPlaytesting - Perhaps one of the most critical skills in game development, you’ll learn how to effectively test your games with real players and iterate based on feedback.",
     "crumbs": [
-      "Week 1: Introduction and Course Overview",
-      "Course Introduction and Syllabus"
+      "Week 01",
+      "Course Introduction"
     ]
   },
   {
@@ -1269,8 +1269,8 @@
     "section": "Assessment",
     "text": "Assessment\nThis course uses a comprehensive continuous assessment approach designed to evaluate both your theoretical understanding and practical skills:\n\n\n\n\n\n\nWarningNo Final Exam\n\n\n\nThis course is assessed entirely through continuous assessment—there is no final examination.\n\n\nThe assessment breakdown is as follows:\n\nPractical Assignments: 40% - These hands-on projects will test your ability to apply game design principles in practice\nCase Study: 20% - An in-depth analysis of existing games, demonstrating your critical evaluation skills\nProject: 40% - A substantial piece of work where you’ll develop and prototype your own game concept\n\nThis assessment structure ensures that you’re continuously engaged with the material and developing practical skills throughout the semester.",
     "crumbs": [
-      "Week 1: Introduction and Course Overview",
-      "Course Introduction and Syllabus"
+      "Week 01",
+      "Course Introduction"
     ]
   },
   {
@@ -1280,8 +1280,8 @@
     "section": "Required Reading",
     "text": "Required Reading\nThe following books form the foundation of our course materials and provide comprehensive coverage of game design theory and practice:\nPrimary Textbooks:\n\nTracy Fullerton (2014) - Game Design Workshop: A Playcentric Approach to Creating Innovative Games, Third Edition - A K Peters/CRC Press (ISBN: 9781482217162)\nJesse Schell (2014) - The Art of Game Design: A Book of Lenses, Second Edition - A K Peters/CRC Press (ISBN: 9781466598645)\n\nSupplementary Reading:\n\nMorgan McGuire (2008) - Creating Games: Mechanics, Content, and Technology - A K Peters/CRC Press (ISBN: 9781568813059)\nScott Rogers (2014) - Level Up! The Guide to Great Video Game Design - Wiley (ISBN: 9781118877166)\nRaph Koster (2013) - Theory of Fun for Game Design - O’Reilly Media (ISBN: 9781449363215)\n\n\n\n\n\n\n\nTipReading Strategy\n\n\n\nThese texts complement each other well—Fullerton and Schell provide comprehensive theoretical frameworks, while McGuire, Rogers, and Koster offer practical insights and industry perspectives.",
     "crumbs": [
-      "Week 1: Introduction and Course Overview",
-      "Course Introduction and Syllabus"
+      "Week 01",
+      "Course Introduction"
     ]
   },
   {
@@ -1291,8 +1291,8 @@
     "section": "Summary",
     "text": "Summary\nThis course introduction establishes the foundation for your journey into ludology and game design. Key takeaways include:\n\nComprehensive Scope: The course covers both theoretical understanding and practical application of game design principles\nHands-on Learning: Assessment emphasizes practical work through assignments, case studies, and projects rather than traditional examinations\nIndustry-Relevant Skills: You’ll develop skills in prototyping, playtesting, and user experience design that are directly applicable in the game industry\nCritical Analysis: The course develops your ability to evaluate and critique games systematically, essential for becoming a thoughtful designer\nCreative Development: From idea generation to prototype implementation, you’ll experience the complete game development pipeline",
     "crumbs": [
-      "Week 1: Introduction and Course Overview",
-      "Course Introduction and Syllabus"
+      "Week 01",
+      "Course Introduction"
     ]
   },
   {
@@ -1302,8 +1302,8 @@
     "section": "",
     "text": "Game balance is a fundamental concept in game design that ensures fair, engaging, and enjoyable gameplay experiences. It involves carefully adjusting game mechanics, systems, and elements to create the optimal challenge level for players.\n\n\n\n\n\n\nNote\n\n\n\nThis lesson appears to be based on limited source materials from a lecture presentation. The content may be abbreviated due to the minimal text extracted from the PDF slides.",
     "crumbs": [
-      "Week 7: Level Design and Game Balance",
-      "Game Balance and Difficulty"
+      "Week 07",
+      "Game Balance"
     ]
   },
   {
@@ -1313,8 +1313,8 @@
     "section": "",
     "text": "Game balance is a fundamental concept in game design that ensures fair, engaging, and enjoyable gameplay experiences. It involves carefully adjusting game mechanics, systems, and elements to create the optimal challenge level for players.\n\n\n\n\n\n\nNote\n\n\n\nThis lesson appears to be based on limited source materials from a lecture presentation. The content may be abbreviated due to the minimal text extracted from the PDF slides.",
     "crumbs": [
-      "Week 7: Level Design and Game Balance",
-      "Game Balance and Difficulty"
+      "Week 07",
+      "Game Balance"
     ]
   },
   {
@@ -1324,8 +1324,8 @@
     "section": "Understanding Game Balance",
     "text": "Understanding Game Balance\nGame balance encompasses several key areas that designers must consider when creating engaging gameplay experiences:\n\nCore Balance Principles\nGame balance involves maintaining equilibrium between different game elements to ensure that: - No single strategy dominates all others - Players face meaningful choices and trade-offs - The game remains challenging without becoming frustrating - Different play styles remain viable throughout the game\n\n\nDifficulty Curves\nProper difficulty progression is essential for maintaining player engagement. A well-designed difficulty curve should: - Start at an accessible level for new players - Gradually increase complexity and challenge - Provide periodic relief or plateau moments - Scale appropriately with player skill development",
     "crumbs": [
-      "Week 7: Level Design and Game Balance",
-      "Game Balance and Difficulty"
+      "Week 07",
+      "Game Balance"
     ]
   },
   {
@@ -1335,8 +1335,8 @@
     "section": "Types of Game Balance",
     "text": "Types of Game Balance\n\nMechanical Balance\nThis involves balancing game systems, rules, and mechanics to ensure fair play and strategic depth.\n\n\nNarrative Balance\nEnsuring that story elements, character development, and pacing align with gameplay mechanics.\n\n\nEconomic Balance\nManaging in-game resources, currencies, and progression systems to maintain engagement without exploitation.\n\n\n\n\n\n\nWarning\n\n\n\nDue to the limited source material available from the extracted PDF content, this lesson provides a general framework for game balance concepts. Additional detailed content would typically be included in a complete lecture series.",
     "crumbs": [
-      "Week 7: Level Design and Game Balance",
-      "Game Balance and Difficulty"
+      "Week 07",
+      "Game Balance"
     ]
   },
   {
@@ -1346,8 +1346,8 @@
     "section": "Summary",
     "text": "Summary\nKey takeaways from this introduction to game balance and difficulty:\n\nGame balance is essential for creating fair and engaging gameplay experiences\nDifficulty curves must be carefully designed to match player skill progression\nBalance encompasses mechanical, narrative, and economic aspects of game design\nProper balance ensures that multiple strategies and play styles remain viable\nRegular testing and iteration are necessary to achieve optimal game balance",
     "crumbs": [
-      "Week 7: Level Design and Game Balance",
-      "Game Balance and Difficulty"
+      "Week 07",
+      "Game Balance"
     ]
   }
 ]
