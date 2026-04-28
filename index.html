@@ -46,9 +46,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-564bc1ece6d998723d1f30af2143c727.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-564bc1ece6d998723d1f30af2143c727.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-564bc1ece6d998723d1f30af2143c727.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c8e390530db5067c75fc0ca97a631345.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c8e390530db5067c75fc0ca97a631345.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c8e390530db5067c75fc0ca97a631345.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/naquiz-styles-1.0.4/buttons.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -360,6 +360,31 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <p>A foundational course in game design covering ludological principles, game mechanics, player psychology, and the complete game design process from concept to prototype. Students will understand what defines a ‘game’, explore game mechanics and rules, and create proof of concept proposals for new games.</p>
+<pre class="mermaid"><code>
+flowchart TD
+    subgraph Beginner["🟢 Beginner Mode"]
+        A([Sign up]) --&gt; B[Onboarding\n4 steps: Welcome → Profile → Subjects → Confidence]
+        B --&gt; C[Beginner Dashboard]
+        C --&gt; D{Today's Focus\n2–3 lowest-confidence subjects}
+        D --&gt; E[Study Timer\n20 min session]
+        E --&gt; F[Rate confidence\nafter session]
+        F --&gt; G[(Update confidence\nin Firestore)]
+        G --&gt; C
+        C --&gt; H[All Subjects card\nupdate confidence anytime]
+    end
+
+    subgraph LevelUp["🚀 Level Up Flow"]
+        C --&gt; LU1[Intro — what full mode unlocks]
+        LU1 --&gt; LU2[Topic Import\nper subject, toggleable]
+        LU2 --&gt; LU3[Study Schedule\nhours/week + days]
+        LU3 --&gt; LU4{Plus user?}
+        LU4 --&gt;|Yes| LU5[completeLevelUp\nstudyMode = 'full']
+        LU4 --&gt;|No| LU6[Show upgrade nudge\n+ confirm free features]
+        LU6 --&gt; LU5
+        LU5 --&gt; FM[Full Mode Dashboard]
+    end
+
+  </code></pre>
 <section id="course-structure" class="level2">
 <h2 class="anchored" data-anchor-id="course-structure">Course Structure</h2>
 <section id="week-1-introduction-and-course-overview" class="level3">
@@ -373,13 +398,13 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="week-2-games-as-engines-of-experience">Week 2: Games as Engines of Experience</h3>
 <ul>
 <li><a href="./week-02/games-as-engines.html">Games as Engines of Experience</a></li>
-<li><a href="./week-02/game-design-process.html">Game Design Process and Ideation</a></li>
+<li><a href="./week-02/game-design-process.html">Game Design Process and Ideation</a> <img src="https://odvtslzlamhvkuthtsnx.supabase.co/storage/v1/object/public/course-assets/117d98e1-0b7b-41a9-a619-5b9e099255d9/drawings/cd03d716-3be3-4646-82ad-2a0a900b248e.png" class="img-fluid" alt="Untitled Drawing"></li>
 </ul>
 </section>
 <section id="week-3-fundamentals-of-game-design" class="level3">
 <h3 class="anchored" data-anchor-id="week-3-fundamentals-of-game-design">Week 3: Fundamentals of Game Design</h3>
 <ul>
-<li><a href="./week-03/game-design-fundamentals.html">Game Design Fundamentals</a></li>
+<li><a href="./week-03/game-design-fundamentals.html">Game Design Fundamentals</a> <img src="https://odvtslzlamhvkuthtsnx.supabase.co/storage/v1/object/public/course-assets/117d98e1-0b7b-41a9-a619-5b9e099255d9/drawings/272dd1b3-3166-4cb1-911a-89953b94a6ff.png" class="img-fluid" alt="Untitled Drawing"></li>
 </ul>
 </section>
 <section id="week-4-mda-framework" class="level3">
@@ -865,4 +890,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<!-- CourseFoundry feedback embed disabled -->
 </body></html>
